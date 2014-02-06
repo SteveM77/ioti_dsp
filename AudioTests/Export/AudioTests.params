@@ -1,0 +1,454 @@
+Cell Name         = DC1
+Parameter Name    = DCInpAlg1
+Parameter Address = 8
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = Tone1
+Parameter Name    = sin_lookupAlgG31mask
+Parameter Address = 10
+Parameter Value   = 255
+Parameter Data :
+0x00, 0x00, 0x00, 0xFF, 
+
+
+
+Cell Name         = Tone1
+Parameter Name    = sin_lookupAlgG31increment
+Parameter Address = 9
+Parameter Value   = 0.0208333730697632
+Parameter Data :
+0x00, 0x02, 0xAA, 0xAB, 
+
+
+
+Cell Name         = Tone1
+Parameter Name    = sin_lookupAlgG31ison
+Parameter Address = 11
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = Tone1
+Parameter Name    = sin_lookupAlgG31coeff_adr
+Parameter Address = 13
+Parameter Value   = 9
+Parameter Data :
+0x00, 0x00, 0x00, 0x09, 
+
+
+
+Cell Name         = Tone1
+Parameter Name    = sin_lookupAlgG31data_adr
+Parameter Address = 12
+Parameter Value   = 2
+Parameter Data :
+0x00, 0x00, 0x00, 0x02, 
+
+
+
+Cell Name         = Nx1-1
+Parameter Name    = monomux1940ns1_0
+Parameter Address = 19
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Nx1-1
+Parameter Name    = monomux1940ns1_1
+Parameter Address = 20
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = Nx1-1
+Parameter Name    = monomux1940ns1_2
+Parameter Address = 21
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = Nx1-1
+Parameter Name    = monomux1940ns1_3
+Parameter Address = 22
+Parameter Value   = 0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = W Noise1
+Parameter Name    = WhiteNAlgNew1enable
+Parameter Address = 14
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = W Noise1
+Parameter Name    = WhiteNAlgNew1mxx
+Parameter Address = 15
+Parameter Value   = 345675
+Parameter Data :
+0x00, 0x05, 0x46, 0x4B, 
+
+
+
+Cell Name         = W Noise1
+Parameter Name    = WhiteNAlgNew1mxx
+Parameter Address = 15
+Parameter Value   = 345675
+Parameter Data :
+0x00, 0x05, 0x46, 0x4B, 
+
+
+
+Cell Name         = Single 1
+Parameter Name    = Gain1940AlgNS1
+Parameter Address = 30
+Parameter Value   = 0.100000023841858
+Parameter Data :
+0x00, 0x0C, 0xCC, 0xCD, 
+
+
+
+Cell Name         = Level1
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen1TCONST
+Parameter Address = 23
+Parameter Value   = 0.00119996070861816
+Parameter Data :
+0x00 ,	0x00 ,	0x27 ,	0x52 ,	
+
+
+
+Cell Name         = Level1
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen1hold
+Parameter Address = 24
+Parameter Value   = 960
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0xC0 ,	
+
+
+
+Cell Name         = Level1
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen1decay
+Parameter Address = 25
+Parameter Value   = 0.000108480453491211
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0x8E ,	
+
+
+
+Cell Name         = M Splitter1
+Parameter Name    = MultiCtrlSplitter11
+Parameter Address = 33
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = M Splitter1
+Parameter Name    = MultiCtrlSplitter12
+Parameter Address = 34
+Parameter Value   = 0.891250967979431
+Parameter Data :
+0x00, 0x72, 0x14, 0x83, 
+
+
+
+Cell Name         = M Splitter1
+Parameter Name    = MultiCtrlSplitter13
+Parameter Address = 35
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = M Splitter1
+Parameter Name    = MultiCtrlSplitter14
+Parameter Address = 36
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = M Splitter1
+Parameter Name    = MultiCtrlSplitter15
+Parameter Address = 37
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = M Splitter1
+Parameter Name    = MultiCtrlSplitter16
+Parameter Address = 38
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = M Splitter1
+Parameter Name    = MultiCtrlSplitter17
+Parameter Address = 39
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = M Splitter1
+Parameter Name    = MultiCtrlSplitter18
+Parameter Address = 40
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = M Splitter1_2
+Parameter Name    = MultiCtrlSplitter21
+Parameter Address = 41
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = M Splitter1_2
+Parameter Name    = MultiCtrlSplitter22
+Parameter Address = 42
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = M Splitter1_2
+Parameter Name    = MultiCtrlSplitter23
+Parameter Address = 43
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = M Splitter1_2
+Parameter Name    = MultiCtrlSplitter24
+Parameter Address = 44
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = M Splitter1_2
+Parameter Name    = MultiCtrlSplitter25
+Parameter Address = 45
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = M Splitter1_2
+Parameter Name    = MultiCtrlSplitter26
+Parameter Address = 46
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = M Splitter1_2
+Parameter Name    = MultiCtrlSplitter27
+Parameter Address = 47
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = M Splitter1_2
+Parameter Name    = MultiCtrlSplitter28
+Parameter Address = 48
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = M Splitter2
+Parameter Name    = MultiCtrlSplitter31
+Parameter Address = 31
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = M Splitter2
+Parameter Name    = MultiCtrlSplitter32
+Parameter Address = 32
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = Square1
+Parameter Name    = SquareAlg1mask
+Parameter Address = 16
+Parameter Value   = 255
+Parameter Data :
+0x00, 0x00, 0x00, 0xFF, 
+
+
+
+Cell Name         = Square1
+Parameter Name    = SquareAlg1freq
+Parameter Address = 17
+Parameter Value   = 0.0208333730697632
+Parameter Data :
+0x00, 0x02, 0xAA, 0xAB, 
+
+
+
+Cell Name         = Square1
+Parameter Name    = SquareAlg1ison
+Parameter Address = 18
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
+
+
+
+Cell Name         = None - Framework
+Parameter Name    = NonModRamAlloc
+Parameter Address = 0
+Parameter Value   = 8192
+Parameter Data :
+0x00, 0x00, 0x20, 0x00, 
+
+
+
+Parameter data for: IC 1 (Hexadecimal format starting at parameter address 0)
+See also AudioTests.hex file
+0x00 , 	0x00 , 	0x20 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x02 , 	0xAA , 	0xAB , 	
+0x00 , 	0x00 , 	0x00 , 	0xFF , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x02 , 	
+0x00 , 	0x00 , 	0x00 , 	0x09 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x05 , 	0x46 , 	0x4B , 	
+0x00 , 	0x00 , 	0x00 , 	0xFF , 	
+0x00 , 	0x02 , 	0xAA , 	0xAB , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x27 , 	0x52 , 	
+0x00 , 	0x00 , 	0x03 , 	0xC0 , 	
+0x00 , 	0x00 , 	0x03 , 	0x8E , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x0C , 	0xCC , 	0xCD , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x72 , 	0x14 , 	0x83 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+
+Parameter data for: IC 1 (Binary format starting at parameter address 0)
+00000000	00000000	00100000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	00000010	10101010	10101011	
+00000000	00000000	00000000	11111111	
+00000000	10000000	00000000	00000000	
+00000000	00000000	00000000	00000010	
+00000000	00000000	00000000	00001001	
+00000000	10000000	00000000	00000000	
+00000000	00000101	01000110	01001011	
+00000000	00000000	00000000	11111111	
+00000000	00000010	10101010	10101011	
+00000000	10000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00100111	01010010	
+00000000	00000000	00000011	11000000	
+00000000	00000000	00000011	10001110	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00001100	11001100	11001101	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	01110010	00010100	10000011	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
+
