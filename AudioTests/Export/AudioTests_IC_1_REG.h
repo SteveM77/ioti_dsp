@@ -1,7 +1,7 @@
 /*
- * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\AudioTests\Export\AudioTests_IC_1_REG.h
+ * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\AudioTests\Export\AudioTests_IC_1_REG.h
  *
- * Created:        Wednesday, February 05, 2014 6:43:07 PM
+ * Created:        Saturday, February 08, 2014 8:43:45 AM
  * Description:    AudioTests:IC 1 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -83,22 +83,22 @@
 /* SerialInput0_Default  - Registers (IC 1) */
 #define REG_SERIALINPUT0_DEFAULT_IC_1_ADDR        0xE000
 #define REG_SERIALINPUT0_DEFAULT_IC_1_BYTE        2
-#define REG_SERIALINPUT0_DEFAULT_IC_1_VALUE       0x2480
+#define REG_SERIALINPUT0_DEFAULT_IC_1_VALUE       0xA409
 
 /* SerialInput1_Default  - Registers (IC 1) */
 #define REG_SERIALINPUT1_DEFAULT_IC_1_ADDR        0xE001
 #define REG_SERIALINPUT1_DEFAULT_IC_1_BYTE        2
-#define REG_SERIALINPUT1_DEFAULT_IC_1_VALUE       0x2480
+#define REG_SERIALINPUT1_DEFAULT_IC_1_VALUE       0xA409
 
 /* SerialInput2_Default  - Registers (IC 1) */
 #define REG_SERIALINPUT2_DEFAULT_IC_1_ADDR        0xE002
 #define REG_SERIALINPUT2_DEFAULT_IC_1_BYTE        2
-#define REG_SERIALINPUT2_DEFAULT_IC_1_VALUE       0x2480
+#define REG_SERIALINPUT2_DEFAULT_IC_1_VALUE       0xA409
 
 /* SerialInput3_Default  - Registers (IC 1) */
 #define REG_SERIALINPUT3_DEFAULT_IC_1_ADDR        0xE003
 #define REG_SERIALINPUT3_DEFAULT_IC_1_BYTE        2
-#define REG_SERIALINPUT3_DEFAULT_IC_1_VALUE       0x2480
+#define REG_SERIALINPUT3_DEFAULT_IC_1_VALUE       0xA409
 
 /* SerialInput4_Default  - Registers (IC 1) */
 #define REG_SERIALINPUT4_DEFAULT_IC_1_ADDR        0xE004
@@ -453,82 +453,82 @@
 /* ASRCInputSelectPair0_Default  - Registers (IC 1) */
 #define REG_ASRCINPUTSELECTPAIR0_DEFAULT_IC_1_ADDR 0xE080
 #define REG_ASRCINPUTSELECTPAIR0_DEFAULT_IC_1_BYTE 2
-#define REG_ASRCINPUTSELECTPAIR0_DEFAULT_IC_1_VALUE 0x3F
+#define REG_ASRCINPUTSELECTPAIR0_DEFAULT_IC_1_VALUE 0x0
 
 /* ASRCInputSelectPair1_Default  - Registers (IC 1) */
 #define REG_ASRCINPUTSELECTPAIR1_DEFAULT_IC_1_ADDR 0xE081
 #define REG_ASRCINPUTSELECTPAIR1_DEFAULT_IC_1_BYTE 2
-#define REG_ASRCINPUTSELECTPAIR1_DEFAULT_IC_1_VALUE 0x3F
+#define REG_ASRCINPUTSELECTPAIR1_DEFAULT_IC_1_VALUE 0x1
 
 /* ASRCInputSelectPair2_Default  - Registers (IC 1) */
 #define REG_ASRCINPUTSELECTPAIR2_DEFAULT_IC_1_ADDR 0xE082
 #define REG_ASRCINPUTSELECTPAIR2_DEFAULT_IC_1_BYTE 2
-#define REG_ASRCINPUTSELECTPAIR2_DEFAULT_IC_1_VALUE 0x3F
+#define REG_ASRCINPUTSELECTPAIR2_DEFAULT_IC_1_VALUE 0x2
 
 /* ASRCInputSelectPair3_Default  - Registers (IC 1) */
 #define REG_ASRCINPUTSELECTPAIR3_DEFAULT_IC_1_ADDR 0xE083
 #define REG_ASRCINPUTSELECTPAIR3_DEFAULT_IC_1_BYTE 2
-#define REG_ASRCINPUTSELECTPAIR3_DEFAULT_IC_1_VALUE 0x3F
+#define REG_ASRCINPUTSELECTPAIR3_DEFAULT_IC_1_VALUE 0x3
 
 /* ASRCInputSelectPair4_Default  - Registers (IC 1) */
 #define REG_ASRCINPUTSELECTPAIR4_DEFAULT_IC_1_ADDR 0xE084
 #define REG_ASRCINPUTSELECTPAIR4_DEFAULT_IC_1_BYTE 2
-#define REG_ASRCINPUTSELECTPAIR4_DEFAULT_IC_1_VALUE 0x3F
+#define REG_ASRCINPUTSELECTPAIR4_DEFAULT_IC_1_VALUE 0x4
 
 /* ASRCInputSelectPair5_Default  - Registers (IC 1) */
 #define REG_ASRCINPUTSELECTPAIR5_DEFAULT_IC_1_ADDR 0xE085
 #define REG_ASRCINPUTSELECTPAIR5_DEFAULT_IC_1_BYTE 2
-#define REG_ASRCINPUTSELECTPAIR5_DEFAULT_IC_1_VALUE 0x3F
+#define REG_ASRCINPUTSELECTPAIR5_DEFAULT_IC_1_VALUE 0x5
 
 /* ASRCInputSelectPair6_Default  - Registers (IC 1) */
 #define REG_ASRCINPUTSELECTPAIR6_DEFAULT_IC_1_ADDR 0xE086
 #define REG_ASRCINPUTSELECTPAIR6_DEFAULT_IC_1_BYTE 2
-#define REG_ASRCINPUTSELECTPAIR6_DEFAULT_IC_1_VALUE 0x3F
+#define REG_ASRCINPUTSELECTPAIR6_DEFAULT_IC_1_VALUE 0x6
 
 /* ASRCInputSelectPair7_Default  - Registers (IC 1) */
 #define REG_ASRCINPUTSELECTPAIR7_DEFAULT_IC_1_ADDR 0xE087
 #define REG_ASRCINPUTSELECTPAIR7_DEFAULT_IC_1_BYTE 2
-#define REG_ASRCINPUTSELECTPAIR7_DEFAULT_IC_1_VALUE 0x3F
+#define REG_ASRCINPUTSELECTPAIR7_DEFAULT_IC_1_VALUE 0x7
 
 /* ASRCOutputRateSelectorPair0_Default  - Registers (IC 1) */
 #define REG_ASRCOUTPUTRATESELECTORPAIR0_DEFAULT_IC_1_ADDR 0xE088
 #define REG_ASRCOUTPUTRATESELECTORPAIR0_DEFAULT_IC_1_BYTE 2
-#define REG_ASRCOUTPUTRATESELECTORPAIR0_DEFAULT_IC_1_VALUE 0x3F
+#define REG_ASRCOUTPUTRATESELECTORPAIR0_DEFAULT_IC_1_VALUE 0x10
 
 /* ASRCOutputRateSelectorPair1_Default  - Registers (IC 1) */
 #define REG_ASRCOUTPUTRATESELECTORPAIR1_DEFAULT_IC_1_ADDR 0xE089
 #define REG_ASRCOUTPUTRATESELECTORPAIR1_DEFAULT_IC_1_BYTE 2
-#define REG_ASRCOUTPUTRATESELECTORPAIR1_DEFAULT_IC_1_VALUE 0x3F
+#define REG_ASRCOUTPUTRATESELECTORPAIR1_DEFAULT_IC_1_VALUE 0x10
 
 /* ASRCOutputRateSelectorPair2_Default  - Registers (IC 1) */
 #define REG_ASRCOUTPUTRATESELECTORPAIR2_DEFAULT_IC_1_ADDR 0xE08A
 #define REG_ASRCOUTPUTRATESELECTORPAIR2_DEFAULT_IC_1_BYTE 2
-#define REG_ASRCOUTPUTRATESELECTORPAIR2_DEFAULT_IC_1_VALUE 0x3F
+#define REG_ASRCOUTPUTRATESELECTORPAIR2_DEFAULT_IC_1_VALUE 0x10
 
 /* ASRCOutputRateSelectorPair3_Default  - Registers (IC 1) */
 #define REG_ASRCOUTPUTRATESELECTORPAIR3_DEFAULT_IC_1_ADDR 0xE08B
 #define REG_ASRCOUTPUTRATESELECTORPAIR3_DEFAULT_IC_1_BYTE 2
-#define REG_ASRCOUTPUTRATESELECTORPAIR3_DEFAULT_IC_1_VALUE 0x3F
+#define REG_ASRCOUTPUTRATESELECTORPAIR3_DEFAULT_IC_1_VALUE 0x10
 
 /* ASRCOutputRateSelectorPair4_Default  - Registers (IC 1) */
 #define REG_ASRCOUTPUTRATESELECTORPAIR4_DEFAULT_IC_1_ADDR 0xE08C
 #define REG_ASRCOUTPUTRATESELECTORPAIR4_DEFAULT_IC_1_BYTE 2
-#define REG_ASRCOUTPUTRATESELECTORPAIR4_DEFAULT_IC_1_VALUE 0x3F
+#define REG_ASRCOUTPUTRATESELECTORPAIR4_DEFAULT_IC_1_VALUE 0x10
 
 /* ASRCOutputRateSelectorPair5_Default  - Registers (IC 1) */
 #define REG_ASRCOUTPUTRATESELECTORPAIR5_DEFAULT_IC_1_ADDR 0xE08D
 #define REG_ASRCOUTPUTRATESELECTORPAIR5_DEFAULT_IC_1_BYTE 2
-#define REG_ASRCOUTPUTRATESELECTORPAIR5_DEFAULT_IC_1_VALUE 0x3F
+#define REG_ASRCOUTPUTRATESELECTORPAIR5_DEFAULT_IC_1_VALUE 0x10
 
 /* ASRCOutputRateSelectorPair6_Default  - Registers (IC 1) */
 #define REG_ASRCOUTPUTRATESELECTORPAIR6_DEFAULT_IC_1_ADDR 0xE08E
 #define REG_ASRCOUTPUTRATESELECTORPAIR6_DEFAULT_IC_1_BYTE 2
-#define REG_ASRCOUTPUTRATESELECTORPAIR6_DEFAULT_IC_1_VALUE 0x3F
+#define REG_ASRCOUTPUTRATESELECTORPAIR6_DEFAULT_IC_1_VALUE 0x10
 
 /* ASRCOutputRateSelectorPair7_Default  - Registers (IC 1) */
 #define REG_ASRCOUTPUTRATESELECTORPAIR7_DEFAULT_IC_1_ADDR 0xE08F
 #define REG_ASRCOUTPUTRATESELECTORPAIR7_DEFAULT_IC_1_BYTE 2
-#define REG_ASRCOUTPUTRATESELECTORPAIR7_DEFAULT_IC_1_VALUE 0x3F
+#define REG_ASRCOUTPUTRATESELECTORPAIR7_DEFAULT_IC_1_VALUE 0x10
 
 /* SerialOutSelectorPair0_Default  - Registers (IC 1) */
 #define REG_SERIALOUTSELECTORPAIR0_DEFAULT_IC_1_ADDR 0xE090
@@ -1263,14 +1263,14 @@
 #define R11_DSPBIST_IC_1_SHIFT                    0
 
 /* SerialInput0_Default (IC 1) */
-#define R12_TDM_TYPE_IC_1                         0x0    /* 000b	[2:0] */
-#define R12_MSB_POSITION_IC_1                     0x0    /* 000b	[5:3] */
-#define R12_WORD_LENGTH_IC_1                      0x2    /* 10b	[7:6] */
+#define R12_TDM_TYPE_IC_1                         0x1    /* 001b	[2:0] */
+#define R12_MSB_POSITION_IC_1                     0x1    /* 001b	[5:3] */
+#define R12_WORD_LENGTH_IC_1                      0x0    /* 00b	[7:6] */
 #define R12_LRCLK_POLARITY_IC_1                   0x0    /* 0b	[8] */
 #define R12_BCLK_POLARITY_IC_1                    0x0    /* 0b	[9] */
 #define R12_MASTERSLAVE_AND_CLOCLK_DOMAIN_IC_1    0x9    /* 1001b	[13:10] */
 #define R12_FRAME_SYNC_TYPE_IC_1                  0x0    /* 0b	[14] */
-#define R12_CLOCK_OUTPUT_ENABLE_IC_1              0x0    /* 0b	[15] */
+#define R12_CLOCK_OUTPUT_ENABLE_IC_1              0x1    /* 1b	[15] */
 #define R12_TDM_TYPE_IC_1_MASK                    0x7
 #define R12_TDM_TYPE_IC_1_SHIFT                   0
 #define R12_MSB_POSITION_IC_1_MASK                0x38
@@ -1289,14 +1289,14 @@
 #define R12_CLOCK_OUTPUT_ENABLE_IC_1_SHIFT        15
 
 /* SerialInput1_Default (IC 1) */
-#define R13_TDM_TYPE_IC_1                         0x0    /* 000b	[2:0] */
-#define R13_MSB_POSITION_IC_1                     0x0    /* 000b	[5:3] */
-#define R13_WORD_LENGTH_IC_1                      0x2    /* 10b	[7:6] */
+#define R13_TDM_TYPE_IC_1                         0x1    /* 001b	[2:0] */
+#define R13_MSB_POSITION_IC_1                     0x1    /* 001b	[5:3] */
+#define R13_WORD_LENGTH_IC_1                      0x0    /* 00b	[7:6] */
 #define R13_LRCLK_POLARITY_IC_1                   0x0    /* 0b	[8] */
 #define R13_BCLK_POLARITY_IC_1                    0x0    /* 0b	[9] */
 #define R13_MASTERSLAVE_AND_CLOCLK_DOMAIN_IC_1    0x9    /* 1001b	[13:10] */
 #define R13_FRAME_SYNC_TYPE_IC_1                  0x0    /* 0b	[14] */
-#define R13_CLOCK_OUTPUT_ENABLE_IC_1              0x0    /* 0b	[15] */
+#define R13_CLOCK_OUTPUT_ENABLE_IC_1              0x1    /* 1b	[15] */
 #define R13_TDM_TYPE_IC_1_MASK                    0x7
 #define R13_TDM_TYPE_IC_1_SHIFT                   0
 #define R13_MSB_POSITION_IC_1_MASK                0x38
@@ -1315,14 +1315,14 @@
 #define R13_CLOCK_OUTPUT_ENABLE_IC_1_SHIFT        15
 
 /* SerialInput2_Default (IC 1) */
-#define R14_TDM_TYPE_IC_1                         0x0    /* 000b	[2:0] */
-#define R14_MSB_POSITION_IC_1                     0x0    /* 000b	[5:3] */
-#define R14_WORD_LENGTH_IC_1                      0x2    /* 10b	[7:6] */
+#define R14_TDM_TYPE_IC_1                         0x1    /* 001b	[2:0] */
+#define R14_MSB_POSITION_IC_1                     0x1    /* 001b	[5:3] */
+#define R14_WORD_LENGTH_IC_1                      0x0    /* 00b	[7:6] */
 #define R14_LRCLK_POLARITY_IC_1                   0x0    /* 0b	[8] */
 #define R14_BCLK_POLARITY_IC_1                    0x0    /* 0b	[9] */
 #define R14_MASTERSLAVE_AND_CLOCLK_DOMAIN_IC_1    0x9    /* 1001b	[13:10] */
 #define R14_FRAME_SYNC_TYPE_IC_1                  0x0    /* 0b	[14] */
-#define R14_CLOCK_OUTPUT_ENABLE_IC_1              0x0    /* 0b	[15] */
+#define R14_CLOCK_OUTPUT_ENABLE_IC_1              0x1    /* 1b	[15] */
 #define R14_TDM_TYPE_IC_1_MASK                    0x7
 #define R14_TDM_TYPE_IC_1_SHIFT                   0
 #define R14_MSB_POSITION_IC_1_MASK                0x38
@@ -1341,14 +1341,14 @@
 #define R14_CLOCK_OUTPUT_ENABLE_IC_1_SHIFT        15
 
 /* SerialInput3_Default (IC 1) */
-#define R15_TDM_TYPE_IC_1                         0x0    /* 000b	[2:0] */
-#define R15_MSB_POSITION_IC_1                     0x0    /* 000b	[5:3] */
-#define R15_WORD_LENGTH_IC_1                      0x2    /* 10b	[7:6] */
+#define R15_TDM_TYPE_IC_1                         0x1    /* 001b	[2:0] */
+#define R15_MSB_POSITION_IC_1                     0x1    /* 001b	[5:3] */
+#define R15_WORD_LENGTH_IC_1                      0x0    /* 00b	[7:6] */
 #define R15_LRCLK_POLARITY_IC_1                   0x0    /* 0b	[8] */
 #define R15_BCLK_POLARITY_IC_1                    0x0    /* 0b	[9] */
 #define R15_MASTERSLAVE_AND_CLOCLK_DOMAIN_IC_1    0x9    /* 1001b	[13:10] */
 #define R15_FRAME_SYNC_TYPE_IC_1                  0x0    /* 0b	[14] */
-#define R15_CLOCK_OUTPUT_ENABLE_IC_1              0x0    /* 0b	[15] */
+#define R15_CLOCK_OUTPUT_ENABLE_IC_1              0x1    /* 1b	[15] */
 #define R15_TDM_TYPE_IC_1_MASK                    0x7
 #define R15_TDM_TYPE_IC_1_SHIFT                   0
 #define R15_MSB_POSITION_IC_1_MASK                0x38
@@ -1739,82 +1739,82 @@
 #define R30_HIGH_SPEED_SLAVE_RSVD_IC_1_SHIFT      1
 
 /* ASRCInputSelectPair0_Default (IC 1) */
-#define R31_ASRC_INPUT_DATA_SELECTOR_IC_1         0x003F /* 0000000000111111b	[15:0] */
+#define R31_ASRC_INPUT_DATA_SELECTOR_IC_1         0x0000 /* 0000000000000000b	[15:0] */
 #define R31_ASRC_INPUT_DATA_SELECTOR_IC_1_MASK    0xFFFF
 #define R31_ASRC_INPUT_DATA_SELECTOR_IC_1_SHIFT   0
 
 /* ASRCInputSelectPair1_Default (IC 1) */
-#define R32_ASRC_INPUT_DATA_SELECTOR_IC_1         0x003F /* 0000000000111111b	[15:0] */
+#define R32_ASRC_INPUT_DATA_SELECTOR_IC_1         0x0001 /* 0000000000000001b	[15:0] */
 #define R32_ASRC_INPUT_DATA_SELECTOR_IC_1_MASK    0xFFFF
 #define R32_ASRC_INPUT_DATA_SELECTOR_IC_1_SHIFT   0
 
 /* ASRCInputSelectPair2_Default (IC 1) */
-#define R33_ASRC_INPUT_DATA_SELECTOR_IC_1         0x003F /* 0000000000111111b	[15:0] */
+#define R33_ASRC_INPUT_DATA_SELECTOR_IC_1         0x0002 /* 0000000000000010b	[15:0] */
 #define R33_ASRC_INPUT_DATA_SELECTOR_IC_1_MASK    0xFFFF
 #define R33_ASRC_INPUT_DATA_SELECTOR_IC_1_SHIFT   0
 
 /* ASRCInputSelectPair3_Default (IC 1) */
-#define R34_ASRC_INPUT_DATA_SELECTOR_IC_1         0x003F /* 0000000000111111b	[15:0] */
+#define R34_ASRC_INPUT_DATA_SELECTOR_IC_1         0x0003 /* 0000000000000011b	[15:0] */
 #define R34_ASRC_INPUT_DATA_SELECTOR_IC_1_MASK    0xFFFF
 #define R34_ASRC_INPUT_DATA_SELECTOR_IC_1_SHIFT   0
 
 /* ASRCInputSelectPair4_Default (IC 1) */
-#define R35_ASRC_INPUT_DATA_SELECTOR_IC_1         0x003F /* 0000000000111111b	[15:0] */
+#define R35_ASRC_INPUT_DATA_SELECTOR_IC_1         0x0004 /* 0000000000000100b	[15:0] */
 #define R35_ASRC_INPUT_DATA_SELECTOR_IC_1_MASK    0xFFFF
 #define R35_ASRC_INPUT_DATA_SELECTOR_IC_1_SHIFT   0
 
 /* ASRCInputSelectPair5_Default (IC 1) */
-#define R36_ASRC_INPUT_DATA_SELECTOR_IC_1         0x003F /* 0000000000111111b	[15:0] */
+#define R36_ASRC_INPUT_DATA_SELECTOR_IC_1         0x0005 /* 0000000000000101b	[15:0] */
 #define R36_ASRC_INPUT_DATA_SELECTOR_IC_1_MASK    0xFFFF
 #define R36_ASRC_INPUT_DATA_SELECTOR_IC_1_SHIFT   0
 
 /* ASRCInputSelectPair6_Default (IC 1) */
-#define R37_ASRC_INPUT_DATA_SELECTOR_IC_1         0x003F /* 0000000000111111b	[15:0] */
+#define R37_ASRC_INPUT_DATA_SELECTOR_IC_1         0x0006 /* 0000000000000110b	[15:0] */
 #define R37_ASRC_INPUT_DATA_SELECTOR_IC_1_MASK    0xFFFF
 #define R37_ASRC_INPUT_DATA_SELECTOR_IC_1_SHIFT   0
 
 /* ASRCInputSelectPair7_Default (IC 1) */
-#define R38_ASRC_INPUT_DATA_SELECTOR_IC_1         0x003F /* 0000000000111111b	[15:0] */
+#define R38_ASRC_INPUT_DATA_SELECTOR_IC_1         0x0007 /* 0000000000000111b	[15:0] */
 #define R38_ASRC_INPUT_DATA_SELECTOR_IC_1_MASK    0xFFFF
 #define R38_ASRC_INPUT_DATA_SELECTOR_IC_1_SHIFT   0
 
 /* ASRCOutputRateSelectorPair0_Default (IC 1) */
-#define R39_ASRC_OUTPUT_RATE_SELECTOR_IC_1        0x003F /* 0000000000111111b	[15:0] */
+#define R39_ASRC_OUTPUT_RATE_SELECTOR_IC_1        0x0010 /* 0000000000010000b	[15:0] */
 #define R39_ASRC_OUTPUT_RATE_SELECTOR_IC_1_MASK   0xFFFF
 #define R39_ASRC_OUTPUT_RATE_SELECTOR_IC_1_SHIFT  0
 
 /* ASRCOutputRateSelectorPair1_Default (IC 1) */
-#define R40_ASRC_OUTPUT_RATE_SELECTOR_IC_1        0x003F /* 0000000000111111b	[15:0] */
+#define R40_ASRC_OUTPUT_RATE_SELECTOR_IC_1        0x0010 /* 0000000000010000b	[15:0] */
 #define R40_ASRC_OUTPUT_RATE_SELECTOR_IC_1_MASK   0xFFFF
 #define R40_ASRC_OUTPUT_RATE_SELECTOR_IC_1_SHIFT  0
 
 /* ASRCOutputRateSelectorPair2_Default (IC 1) */
-#define R41_ASRC_OUTPUT_RATE_SELECTOR_IC_1        0x003F /* 0000000000111111b	[15:0] */
+#define R41_ASRC_OUTPUT_RATE_SELECTOR_IC_1        0x0010 /* 0000000000010000b	[15:0] */
 #define R41_ASRC_OUTPUT_RATE_SELECTOR_IC_1_MASK   0xFFFF
 #define R41_ASRC_OUTPUT_RATE_SELECTOR_IC_1_SHIFT  0
 
 /* ASRCOutputRateSelectorPair3_Default (IC 1) */
-#define R42_ASRC_OUTPUT_RATE_SELECTOR_IC_1        0x003F /* 0000000000111111b	[15:0] */
+#define R42_ASRC_OUTPUT_RATE_SELECTOR_IC_1        0x0010 /* 0000000000010000b	[15:0] */
 #define R42_ASRC_OUTPUT_RATE_SELECTOR_IC_1_MASK   0xFFFF
 #define R42_ASRC_OUTPUT_RATE_SELECTOR_IC_1_SHIFT  0
 
 /* ASRCOutputRateSelectorPair4_Default (IC 1) */
-#define R43_ASRC_OUTPUT_RATE_SELECTOR_IC_1        0x003F /* 0000000000111111b	[15:0] */
+#define R43_ASRC_OUTPUT_RATE_SELECTOR_IC_1        0x0010 /* 0000000000010000b	[15:0] */
 #define R43_ASRC_OUTPUT_RATE_SELECTOR_IC_1_MASK   0xFFFF
 #define R43_ASRC_OUTPUT_RATE_SELECTOR_IC_1_SHIFT  0
 
 /* ASRCOutputRateSelectorPair5_Default (IC 1) */
-#define R44_ASRC_OUTPUT_RATE_SELECTOR_IC_1        0x003F /* 0000000000111111b	[15:0] */
+#define R44_ASRC_OUTPUT_RATE_SELECTOR_IC_1        0x0010 /* 0000000000010000b	[15:0] */
 #define R44_ASRC_OUTPUT_RATE_SELECTOR_IC_1_MASK   0xFFFF
 #define R44_ASRC_OUTPUT_RATE_SELECTOR_IC_1_SHIFT  0
 
 /* ASRCOutputRateSelectorPair6_Default (IC 1) */
-#define R45_ASRC_OUTPUT_RATE_SELECTOR_IC_1        0x003F /* 0000000000111111b	[15:0] */
+#define R45_ASRC_OUTPUT_RATE_SELECTOR_IC_1        0x0010 /* 0000000000010000b	[15:0] */
 #define R45_ASRC_OUTPUT_RATE_SELECTOR_IC_1_MASK   0xFFFF
 #define R45_ASRC_OUTPUT_RATE_SELECTOR_IC_1_SHIFT  0
 
 /* ASRCOutputRateSelectorPair7_Default (IC 1) */
-#define R46_ASRC_OUTPUT_RATE_SELECTOR_IC_1        0x003F /* 0000000000111111b	[15:0] */
+#define R46_ASRC_OUTPUT_RATE_SELECTOR_IC_1        0x0010 /* 0000000000010000b	[15:0] */
 #define R46_ASRC_OUTPUT_RATE_SELECTOR_IC_1_MASK   0xFFFF
 #define R46_ASRC_OUTPUT_RATE_SELECTOR_IC_1_SHIFT  0
 
