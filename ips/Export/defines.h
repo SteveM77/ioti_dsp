@@ -1,7 +1,7 @@
 /*
  * File:           defines.h
  *
- * Created:        Thursday, November 07, 2013 3:42:12 PM
+ * Created:        Sunday, February 09, 2014 3:01:29 PM
  * Description:    ipsEQ IC default download data definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -14,13 +14,13 @@
  * are intended for resale to audio product end users. This software
  * may not be distributed whole or in any part to third parties.
  *
- * Copyright ©2013 Analog Devices, Inc. All rights reserved.
+ * Copyright ©2014 Analog Devices, Inc. All rights reserved.
  */
 #ifndef __DEFINES_H__
 #define __DEFINES_H__
 
-#define BufferSize_ADAU1445     	20284
-#define NumTransactions_ADAU1445	22
+#define BufferSize_ADAU1445     	20288
+#define NumTransactions_ADAU1445	23
 
 #define BufferSize_ADAU1966     	96
 #define NumTransactions_ADAU1966	32

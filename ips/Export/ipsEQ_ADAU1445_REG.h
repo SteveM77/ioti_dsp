@@ -1,7 +1,7 @@
 /*
- * File:           Y:\BEA\ioti\software\SigmaDSP\ips\ipsEQ_ADAU1445_REG.h
+ * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\ips\Export\ipsEQ_ADAU1445_REG.h
  *
- * Created:        Thursday, November 07, 2013 3:42:12 PM
+ * Created:        Sunday, February 09, 2014 3:01:29 PM
  * Description:    ipsEQ:ADAU1445 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -14,7 +14,7 @@
  * are intended for resale to audio product end users. This software
  * may not be distributed whole or in any part to third parties.
  *
- * Copyright ©2013 Analog Devices, Inc. All rights reserved.
+ * Copyright ©2014 Analog Devices, Inc. All rights reserved.
  */
 #ifndef __IPSEQ_ADAU1445_REG_H__
 #define __IPSEQ_ADAU1445_REG_H__
@@ -83,22 +83,22 @@
 /* SerialInput0_Default  - Registers (ADAU1445) */
 #define REG_SERIALINPUT0_DEFAULT_ADAU1445_ADDR    0xE000
 #define REG_SERIALINPUT0_DEFAULT_ADAU1445_BYTE    2
-#define REG_SERIALINPUT0_DEFAULT_ADAU1445_VALUE   0xA809
+#define REG_SERIALINPUT0_DEFAULT_ADAU1445_VALUE   0xA409
 
 /* SerialInput1_Default  - Registers (ADAU1445) */
 #define REG_SERIALINPUT1_DEFAULT_ADAU1445_ADDR    0xE001
 #define REG_SERIALINPUT1_DEFAULT_ADAU1445_BYTE    2
-#define REG_SERIALINPUT1_DEFAULT_ADAU1445_VALUE   0xA809
+#define REG_SERIALINPUT1_DEFAULT_ADAU1445_VALUE   0xA409
 
 /* SerialInput2_Default  - Registers (ADAU1445) */
 #define REG_SERIALINPUT2_DEFAULT_ADAU1445_ADDR    0xE002
 #define REG_SERIALINPUT2_DEFAULT_ADAU1445_BYTE    2
-#define REG_SERIALINPUT2_DEFAULT_ADAU1445_VALUE   0x2809
+#define REG_SERIALINPUT2_DEFAULT_ADAU1445_VALUE   0xA409
 
 /* SerialInput3_Default  - Registers (ADAU1445) */
 #define REG_SERIALINPUT3_DEFAULT_ADAU1445_ADDR    0xE003
 #define REG_SERIALINPUT3_DEFAULT_ADAU1445_BYTE    2
-#define REG_SERIALINPUT3_DEFAULT_ADAU1445_VALUE   0x2809
+#define REG_SERIALINPUT3_DEFAULT_ADAU1445_VALUE   0xA409
 
 /* SerialInput4_Default  - Registers (ADAU1445) */
 #define REG_SERIALINPUT4_DEFAULT_ADAU1445_ADDR    0xE004
@@ -943,12 +943,12 @@
 /* CRC Ideal_1  - Registers (ADAU1445) */
 #define REG_CRC_IDEAL_1_ADAU1445_ADDR             0xE200
 #define REG_CRC_IDEAL_1_ADAU1445_BYTE             2
-#define REG_CRC_IDEAL_1_ADAU1445_VALUE            0xF3B4
+#define REG_CRC_IDEAL_1_ADAU1445_VALUE            0x50EC
 
 /* CRC Ideal_2  - Registers (ADAU1445) */
 #define REG_CRC_IDEAL_2_ADAU1445_ADDR             0xE201
 #define REG_CRC_IDEAL_2_ADAU1445_BYTE             2
-#define REG_CRC_IDEAL_2_ADAU1445_VALUE            0x9631
+#define REG_CRC_IDEAL_2_ADAU1445_VALUE            0x1A5E
 
 /* CRC Enable  - Registers (ADAU1445) */
 #define REG_CRC_ENABLE_ADAU1445_ADDR              0xE202
@@ -1268,7 +1268,7 @@
 #define R12_WORD_LENGTH_ADAU1445                  0x0    /* 00b	[7:6] */
 #define R12_LRCLK_POLARITY_ADAU1445               0x0    /* 0b	[8] */
 #define R12_BCLK_POLARITY_ADAU1445                0x0    /* 0b	[9] */
-#define R12_MASTERSLAVE_AND_CLOCLK_DOMAIN_ADAU1445 0xA   /* 1010b	[13:10] */
+#define R12_MASTERSLAVE_AND_CLOCLK_DOMAIN_ADAU1445 0x9   /* 1001b	[13:10] */
 #define R12_FRAME_SYNC_TYPE_ADAU1445              0x0    /* 0b	[14] */
 #define R12_CLOCK_OUTPUT_ENABLE_ADAU1445          0x1    /* 1b	[15] */
 #define R12_TDM_TYPE_ADAU1445_MASK                0x7
@@ -1294,7 +1294,7 @@
 #define R13_WORD_LENGTH_ADAU1445                  0x0    /* 00b	[7:6] */
 #define R13_LRCLK_POLARITY_ADAU1445               0x0    /* 0b	[8] */
 #define R13_BCLK_POLARITY_ADAU1445                0x0    /* 0b	[9] */
-#define R13_MASTERSLAVE_AND_CLOCLK_DOMAIN_ADAU1445 0xA   /* 1010b	[13:10] */
+#define R13_MASTERSLAVE_AND_CLOCLK_DOMAIN_ADAU1445 0x9   /* 1001b	[13:10] */
 #define R13_FRAME_SYNC_TYPE_ADAU1445              0x0    /* 0b	[14] */
 #define R13_CLOCK_OUTPUT_ENABLE_ADAU1445          0x1    /* 1b	[15] */
 #define R13_TDM_TYPE_ADAU1445_MASK                0x7
@@ -1320,9 +1320,9 @@
 #define R14_WORD_LENGTH_ADAU1445                  0x0    /* 00b	[7:6] */
 #define R14_LRCLK_POLARITY_ADAU1445               0x0    /* 0b	[8] */
 #define R14_BCLK_POLARITY_ADAU1445                0x0    /* 0b	[9] */
-#define R14_MASTERSLAVE_AND_CLOCLK_DOMAIN_ADAU1445 0xA   /* 1010b	[13:10] */
+#define R14_MASTERSLAVE_AND_CLOCLK_DOMAIN_ADAU1445 0x9   /* 1001b	[13:10] */
 #define R14_FRAME_SYNC_TYPE_ADAU1445              0x0    /* 0b	[14] */
-#define R14_CLOCK_OUTPUT_ENABLE_ADAU1445          0x0    /* 0b	[15] */
+#define R14_CLOCK_OUTPUT_ENABLE_ADAU1445          0x1    /* 1b	[15] */
 #define R14_TDM_TYPE_ADAU1445_MASK                0x7
 #define R14_TDM_TYPE_ADAU1445_SHIFT               0
 #define R14_MSB_POSITION_ADAU1445_MASK            0x38
@@ -1346,9 +1346,9 @@
 #define R15_WORD_LENGTH_ADAU1445                  0x0    /* 00b	[7:6] */
 #define R15_LRCLK_POLARITY_ADAU1445               0x0    /* 0b	[8] */
 #define R15_BCLK_POLARITY_ADAU1445                0x0    /* 0b	[9] */
-#define R15_MASTERSLAVE_AND_CLOCLK_DOMAIN_ADAU1445 0xA   /* 1010b	[13:10] */
+#define R15_MASTERSLAVE_AND_CLOCLK_DOMAIN_ADAU1445 0x9   /* 1001b	[13:10] */
 #define R15_FRAME_SYNC_TYPE_ADAU1445              0x0    /* 0b	[14] */
-#define R15_CLOCK_OUTPUT_ENABLE_ADAU1445          0x0    /* 0b	[15] */
+#define R15_CLOCK_OUTPUT_ENABLE_ADAU1445          0x1    /* 1b	[15] */
 #define R15_TDM_TYPE_ADAU1445_MASK                0x7
 #define R15_TDM_TYPE_ADAU1445_SHIFT               0
 #define R15_MSB_POSITION_ADAU1445_MASK            0x38
@@ -2907,12 +2907,12 @@
 #define R128_MSB_POSITION_UPPER_SLOT_ADAU1445_SHIFT 15
 
 /* CRC Ideal_1 (ADAU1445) */
-#define R129_CRC_IDEAL_1_ADAU1445                 0xF3B4 /* 1111001110110100b	[15:0] */
+#define R129_CRC_IDEAL_1_ADAU1445                 0x50EC /* 0101000011101100b	[15:0] */
 #define R129_CRC_IDEAL_1_ADAU1445_MASK            0xFFFF
 #define R129_CRC_IDEAL_1_ADAU1445_SHIFT           0
 
 /* CRC Ideal_2 (ADAU1445) */
-#define R130_CRC_IDEAL_2_ADAU1445                 0x9631 /* 1001011000110001b	[15:0] */
+#define R130_CRC_IDEAL_2_ADAU1445                 0x1A5E /* 0001101001011110b	[15:0] */
 #define R130_CRC_IDEAL_2_ADAU1445_MASK            0xFFFF
 #define R130_CRC_IDEAL_2_ADAU1445_SHIFT           0
 

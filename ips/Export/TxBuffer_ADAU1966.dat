@@ -3,7 +3,7 @@
 0x00, 0x01, 			/* (1) ADAU1966.PLL_CLK_CTRL1 Register.PLL_CLK_CTRL1 */
 0x2A, 
 0x00, 0x02, 			/* (2) ADAU1966.PDN_THRMSENS_CTRL_1 Register.PDN_THRMSENS_CTRL_1 */
-0xA4, 
+0x00, 
 0x00, 0x03, 			/* (3) ADAU1966.PDN_CTRL2 Register.PDN_CTRL2 */
 0x00, 
 0x00, 0x04, 			/* (4) ADAU1966.PDN_CTRL3 Register.PDN_CTRL3 */

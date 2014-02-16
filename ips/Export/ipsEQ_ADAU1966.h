@@ -1,7 +1,7 @@
 /*
- * File:           Y:\BEA\ioti\software\SigmaDSP\ips\ipsEQ_ADAU1966.h
+ * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\ips\Export\ipsEQ_ADAU1966.h
  *
- * Created:        Thursday, November 07, 2013 3:42:12 PM
+ * Created:        Sunday, February 09, 2014 3:01:29 PM
  * Description:    ipsEQ:ADAU1966 program data.
  *
  * This software is distributed in the hope that it will be useful,
@@ -14,7 +14,7 @@
  * are intended for resale to audio product end users. This software
  * may not be distributed whole or in any part to third parties.
  *
- * Copyright ©2013 Analog Devices, Inc. All rights reserved.
+ * Copyright ©2014 Analog Devices, Inc. All rights reserved.
  */
 #ifndef __IPSEQ_ADAU1966_H__
 #define __IPSEQ_ADAU1966_H__
@@ -38,7 +38,7 @@ ADI_REG_TYPE R1_PLL_CLK_CTRL1_ADAU1966_Default[REG_PLL_CLK_CTRL1_ADAU1966_BYTE] 
 
 /* Register Default - ADAU1966.PDN_THRMSENS_CTRL_1 Register.PDN_THRMSENS_CTRL_1 */
 ADI_REG_TYPE R2_PDN_THRMSENS_CTRL_1_ADAU1966_Default[REG_PDN_THRMSENS_CTRL_1_ADAU1966_BYTE] = {
-0xA4
+0x00
 };
 
 /* Register Default - ADAU1966.PDN_CTRL2 Register.PDN_CTRL2 */

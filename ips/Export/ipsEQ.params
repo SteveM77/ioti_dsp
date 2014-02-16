@@ -9808,6 +9808,15 @@ Parameter Data :
 
 
 
+Cell Name         = testModes.W Noise1
+Parameter Name    = WhiteNAlgNew1mxx
+Parameter Address = 12
+Parameter Value   = 345675
+Parameter Data :
+0x00, 0x05, 0x46, 0x4B, 
+
+
+
 Cell Name         = testModes.Pink Flt1
 Parameter Name    = PinkFAlg1coeff0a
 Parameter Address = 13

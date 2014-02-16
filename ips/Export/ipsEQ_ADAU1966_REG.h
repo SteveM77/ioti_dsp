@@ -1,7 +1,7 @@
 /*
- * File:           Y:\BEA\ioti\software\SigmaDSP\ips\ipsEQ_ADAU1966_REG.h
+ * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\ips\Export\ipsEQ_ADAU1966_REG.h
  *
- * Created:        Thursday, November 07, 2013 3:42:12 PM
+ * Created:        Sunday, February 09, 2014 3:01:29 PM
  * Description:    ipsEQ:ADAU1966 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -14,7 +14,7 @@
  * are intended for resale to audio product end users. This software
  * may not be distributed whole or in any part to third parties.
  *
- * Copyright ©2013 Analog Devices, Inc. All rights reserved.
+ * Copyright ©2014 Analog Devices, Inc. All rights reserved.
  */
 #ifndef __IPSEQ_ADAU1966_REG_H__
 #define __IPSEQ_ADAU1966_REG_H__
@@ -33,7 +33,7 @@
 /* PDN_THRMSENS_CTRL_1  - Registers (ADAU1966) */
 #define REG_PDN_THRMSENS_CTRL_1_ADAU1966_ADDR     0x2
 #define REG_PDN_THRMSENS_CTRL_1_ADAU1966_BYTE     1
-#define REG_PDN_THRMSENS_CTRL_1_ADAU1966_VALUE    0xA4
+#define REG_PDN_THRMSENS_CTRL_1_ADAU1966_VALUE    0x0
 
 /* PDN_CTRL2  - Registers (ADAU1966) */
 #define REG_PDN_CTRL2_ADAU1966_ADDR               0x3
@@ -232,10 +232,10 @@
 /* PDN_THRMSENS_CTRL_1 (ADAU1966) */
 #define R2_VREG_PDN_ADAU1966                      0x0    /* 0b	[0] */
 #define R2_PLL_PDN_ADAU1966                       0x0    /* 0b	[1] */
-#define R2_TS_PDN_ADAU1966                        0x1    /* 1b	[2] */
+#define R2_TS_PDN_ADAU1966                        0x0    /* 0b	[2] */
 #define R2_THRM_GO_ADAU1966                       0x0    /* 0b	[4] */
-#define R2_THRM_MODE_ADAU1966                     0x1    /* 1b	[5] */
-#define R2_THRM_RATE_ADAU1966                     0x2    /* 10b	[7:6] */
+#define R2_THRM_MODE_ADAU1966                     0x0    /* 0b	[5] */
+#define R2_THRM_RATE_ADAU1966                     0x0    /* 00b	[7:6] */
 #define R2_VREG_PDN_ADAU1966_MASK                 0x1
 #define R2_VREG_PDN_ADAU1966_SHIFT                0
 #define R2_PLL_PDN_ADAU1966_MASK                  0x2
