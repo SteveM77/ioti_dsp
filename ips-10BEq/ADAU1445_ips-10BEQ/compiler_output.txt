@@ -7,20 +7,20 @@ Build date = 11/3/2013 at 11:34 PM
 (Note: Estimates are based on a 48 kHz sample rate)
 
 Instructions used:
-1144	(out of a possible 4096 )
+1192	(out of a possible 4096 )
 Modulo Data RAM used (X Memory):
-623	(out of a possible 8192 )
+663	(out of a possible 8192 )
 Non Modulo Data RAM used (X Memory):
 0	(out of a possible 8192 )
 Parameter RAM used (Y Memory):
-664	(out of a possible 4096 )
+672	(out of a possible 4096 )
 
 Instance                      		Mips	Inst	Data	Coeff	Other
                               			(max)
 10 BEQ 1                      		480	480	264	400
 Crossover1_2                  		81	81	60	42
-Crossover1_5                  		81	81	60	42
 Crossover1                    		81	81	60	42
+Crossover1_5                  		81	81	60	42
 Crossover1_3                  		81	81	60	42
 Crossover1_4                  		81	81	60	42
 Pink Flt1                     		31	31	17	16
@@ -34,32 +34,40 @@ Beginning                     		16	16	0	1
 AsrcIn1                       		16	16	0	0
 SafeLoadCode                  		15	15	0	7
 W Noise1                      		8	8	3	2
+DCB2                          		6	6	5	1
+DCB4                          		6	6	5	1
+DCB8                          		6	6	5	1
+DCB5                          		6	6	5	1
+DCB7                          		6	6	5	1
+DCB6                          		6	6	5	1
+DCB1                          		6	6	5	1
+DCB3                          		6	6	5	1
 End                           		5	5	0	0
-Nx1-1                         		4	4	1	3
 3XMixer1                      		4	4	1	3
+Nx1-1                         		4	4	1	3
 Mg1                           		4	4	1	1
-Output1_3                     		2	2	0	0
-Output1_11                    		2	2	0	0
-Output1_4                     		2	2	0	0
-Output1_2                     		2	2	0	0
-Output1_6                     		2	2	0	0
-Output1_7                     		2	2	0	0
-Output1_9                     		2	2	0	0
-Output1_5                     		2	2	0	0
-Output1_16                    		2	2	0	0
-Output1_14                    		2	2	0	0
-Output1_15                    		2	2	0	0
-Output1                       		2	2	0	0
-Output1_10                    		2	2	0	0
-Output1_8                     		2	2	0	0
-Output1_12                    		2	2	0	0
 Output1_13                    		2	2	0	0
+Output1_14                    		2	2	0	0
+Output1_6                     		2	2	0	0
+Output1_2                     		2	2	0	0
+Output1_11                    		2	2	0	0
+Output1                       		2	2	0	0
+Output1_9                     		2	2	0	0
+Output1_8                     		2	2	0	0
+Output1_10                    		2	2	0	0
+Output1_12                    		2	2	0	0
+Output1_15                    		2	2	0	0
+Output1_3                     		2	2	0	0
+Output1_4                     		2	2	0	0
+Output1_7                     		2	2	0	0
+Output1_16                    		2	2	0	0
+Output1_5                     		2	2	0	0
 
 Subroutines called:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Total                      			1144	1144	623	664
+Total                      			1192	1192	663	672
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-(%)                          			32%	28%	8%	16%
+(%)                          			33%	29%	8%	16%
 
 Files written:  
 program_data.dat - load file for downloading code using ADI loader

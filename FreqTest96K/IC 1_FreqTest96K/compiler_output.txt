@@ -7,13 +7,13 @@ Build date = 11/3/2013 at 11:34 PM
 (Note: Estimates are based on a 48 kHz sample rate)
 
 Instructions used:
-99	(out of a possible 4096 )
+96	(out of a possible 4096 )
 Modulo Data RAM used (X Memory):
-10	(out of a possible 8192 )
+9	(out of a possible 8192 )
 Non Modulo Data RAM used (X Memory):
 0	(out of a possible 8192 )
 Parameter RAM used (Y Memory):
-14	(out of a possible 4096 )
+13	(out of a possible 4096 )
 
 Instance                      		Mips	Inst	Data	Coeff	Other
                               			(max)
@@ -22,14 +22,13 @@ Beginning                     		16	16	0	1
 SafeLoadCode                  		15	15	0	7
 End                           		5	5	0	0
 Mg1                           		3	3	1	1
-Single 1                      		3	3	1	1
 DC1                           		2	2	1	1
 Output16                      		2	2	0	0
 Output10                      		2	2	0	0
-Output14                      		2	2	0	0
+Output15                      		2	2	0	0
 Output13                      		2	2	0	0
 Output11                      		2	2	0	0
-Output15                      		2	2	0	0
+Output14                      		2	2	0	0
 Output6                       		2	2	0	0
 Output7                       		2	2	0	0
 Output5                       		2	2	0	0
@@ -43,7 +42,7 @@ Output2                       		2	2	0	0
 
 Subroutines called:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Total                      			99	99	10	14
+Total                      			96	96	9	13
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 (%)                          			3%	2%	0%	0%
 
