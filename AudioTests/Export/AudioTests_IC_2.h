@@ -1,7 +1,7 @@
 /*
- * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\AudioTests\Export\AudioTests_IC_2.h
+ * File:           C:\Users\mobleys\Documents\ioti\trunk\hardware_test\sigmadsp\audioTests\Export\AudioTests_IC_2.h
  *
- * Created:        Saturday, February 08, 2014 8:43:45 AM
+ * Created:        Sunday, March 09, 2014 9:55:41 PM
  * Description:    AudioTests:IC 2 program data.
  *
  * This software is distributed in the hope that it will be useful,
@@ -168,7 +168,7 @@ ADI_REG_TYPE R27_DAC16_VOL_IC_2_Default[REG_DAC16_VOL_IC_2_BYTE] = {
 
 /* Register Default - IC 2.CM_SEL_PAD_STRGTH Register.CM_SEL_PAD_STRGTH */
 ADI_REG_TYPE R28_CM_SEL_PAD_STRGTH_IC_2_Default[REG_CM_SEL_PAD_STRGTH_IC_2_BYTE] = {
-0x00
+0x02
 };
 
 /* Register Default - IC 2.DAC_POWER1 Register.DAC_POWER1 */

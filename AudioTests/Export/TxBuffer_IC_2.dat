@@ -55,7 +55,7 @@
 0x00, 0x1B, 			/* (27) IC 2.DAC16_VOL Register.DAC16_VOL */
 0x00, 
 0x00, 0x1C, 			/* (28) IC 2.CM_SEL_PAD_STRGTH Register.CM_SEL_PAD_STRGTH */
-0x00, 
+0x02, 
 0x00, 0x1D, 			/* (29) IC 2.DAC_POWER1 Register.DAC_POWER1 */
 0xAA, 
 0x00, 0x1E, 			/* (30) IC 2.DAC_POWER2 Register.DAC_POWER2 */

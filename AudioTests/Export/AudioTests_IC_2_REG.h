@@ -1,7 +1,7 @@
 /*
- * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\AudioTests\Export\AudioTests_IC_2_REG.h
+ * File:           C:\Users\mobleys\Documents\ioti\trunk\hardware_test\sigmadsp\audioTests\Export\AudioTests_IC_2_REG.h
  *
- * Created:        Saturday, February 08, 2014 8:43:45 AM
+ * Created:        Sunday, March 09, 2014 9:55:41 PM
  * Description:    AudioTests:IC 2 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -163,7 +163,7 @@
 /* CM_SEL_PAD_STRGTH  - Registers (IC 2) */
 #define REG_CM_SEL_PAD_STRGTH_IC_2_ADDR           0x1C
 #define REG_CM_SEL_PAD_STRGTH_IC_2_BYTE           1
-#define REG_CM_SEL_PAD_STRGTH_IC_2_VALUE          0x0
+#define REG_CM_SEL_PAD_STRGTH_IC_2_VALUE          0x2
 
 /* DAC_POWER1  - Registers (IC 2) */
 #define REG_DAC_POWER1_IC_2_ADDR                  0x1D
@@ -501,7 +501,7 @@
 #define R27_DAC16_VOL_IC_2_SHIFT                  0
 
 /* CM_SEL_PAD_STRGTH (IC 2) */
-#define R28_CM_SEL_IC_2                           0x0    /* 0b	[1] */
+#define R28_CM_SEL_IC_2                           0x1    /* 1b	[1] */
 #define R28_PAD_DRV_IC_2                          0x0    /* 0b	[5] */
 #define R28_CM_SEL_IC_2_MASK                      0x2
 #define R28_CM_SEL_IC_2_SHIFT                     1

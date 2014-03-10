@@ -1,7 +1,7 @@
 /*
- * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\AudioTests\Export\AudioTests_IC_1_PARAM.h
+ * File:           C:\Users\mobleys\Documents\ioti\trunk\hardware_test\sigmadsp\audioTests\Export\AudioTests_IC_1_PARAM.h
  *
- * Created:        Saturday, February 08, 2014 8:43:45 AM
+ * Created:        Sunday, March 09, 2014 9:55:41 PM
  * Description:    AudioTests:IC 1 parameter RAM definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -32,16 +32,16 @@
 #define MOD_DC1_COUNT                                  1
 #define MOD_DC1_DEVICE                                 "IC1"
 #define MOD_DC1_DCINPALG1_ADDR                         8
-#define MOD_DC1_DCINPALG1_FIXPT                        0x005A7EF9
-#define MOD_DC1_DCINPALG1_VALUE                        SIGMASTUDIOTYPE_FIXPOINT_CONVERT(0.707)
+#define MOD_DC1_DCINPALG1_FIXPT                        0x00800000
+#define MOD_DC1_DCINPALG1_VALUE                        SIGMASTUDIOTYPE_FIXPOINT_CONVERT(1)
 #define MOD_DC1_DCINPALG1_TYPE                         SIGMASTUDIOTYPE_FIXPOINT
 
 /* Module Tone1 - Sine Tone*/
 #define MOD_TONE1_COUNT                                5
 #define MOD_TONE1_DEVICE                               "IC1"
 #define MOD_TONE1_ALG0_INCREMENT_ADDR                  9
-#define MOD_TONE1_ALG0_INCREMENT_FIXPT                 0x00012C5F
-#define MOD_TONE1_ALG0_INCREMENT_VALUE                 SIGMASTUDIOTYPE_FIXPOINT_CONVERT(0.00916666666666667)
+#define MOD_TONE1_ALG0_INCREMENT_FIXPT                 0x0002AAAA
+#define MOD_TONE1_ALG0_INCREMENT_VALUE                 SIGMASTUDIOTYPE_FIXPOINT_CONVERT(0.0208333333333333)
 #define MOD_TONE1_ALG0_INCREMENT_TYPE                  SIGMASTUDIOTYPE_FIXPOINT
 #define MOD_STATIC_TONE1_ALG0_MASK_ADDR                10
 #define MOD_STATIC_TONE1_ALG0_MASK_FIXPT               0x000000FF
@@ -84,8 +84,8 @@
 #define MOD_STATIC_SQUARE1_ALG0_MASK_VALUE             SIGMASTUDIOTYPE_INTEGER_CONVERT(255)
 #define MOD_STATIC_SQUARE1_ALG0_MASK_TYPE              SIGMASTUDIOTYPE_INTEGER
 #define MOD_SQUARE1_ALG0_FREQ_ADDR                     17
-#define MOD_SQUARE1_ALG0_FREQ_FIXPT                    0x00012C5F
-#define MOD_SQUARE1_ALG0_FREQ_VALUE                    SIGMASTUDIOTYPE_FIXPOINT_CONVERT(0.00916666666666667)
+#define MOD_SQUARE1_ALG0_FREQ_FIXPT                    0x0002AAAA
+#define MOD_SQUARE1_ALG0_FREQ_VALUE                    SIGMASTUDIOTYPE_FIXPOINT_CONVERT(0.0208333333333333)
 #define MOD_SQUARE1_ALG0_FREQ_TYPE                     SIGMASTUDIOTYPE_FIXPOINT
 #define MOD_SQUARE1_ALG0_ON_ADDR                       18
 #define MOD_SQUARE1_ALG0_ON_FIXPT                      0x00800000
@@ -132,8 +132,8 @@
 #define MOD_SINGLE1_COUNT                              1
 #define MOD_SINGLE1_DEVICE                             "IC1"
 #define MOD_SINGLE1_GAIN1940ALGNS1_ADDR                30
-#define MOD_SINGLE1_GAIN1940ALGNS1_FIXPT               0x0050C335
-#define MOD_SINGLE1_GAIN1940ALGNS1_VALUE               SIGMASTUDIOTYPE_FIXPOINT_CONVERT(0.630957344480193)
+#define MOD_SINGLE1_GAIN1940ALGNS1_FIXPT               0x000CCCCC
+#define MOD_SINGLE1_GAIN1940ALGNS1_VALUE               SIGMASTUDIOTYPE_FIXPOINT_CONVERT(0.1)
 #define MOD_SINGLE1_GAIN1940ALGNS1_TYPE                SIGMASTUDIOTYPE_FIXPOINT
 
 /* Module M Splitter2 - Multiple Control Splitter*/

@@ -1,7 +1,7 @@
 /*
- * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\AudioTests\Export\AudioTests_IC_2_PARAM.h
+ * File:           C:\Users\mobleys\Documents\ioti\trunk\hardware_test\sigmadsp\audioTests\Export\AudioTests_IC_2_PARAM.h
  *
- * Created:        Saturday, February 08, 2014 8:43:45 AM
+ * Created:        Sunday, March 09, 2014 9:55:41 PM
  * Description:    AudioTests:IC 2 parameter RAM definitions.
  *
  * This software is distributed in the hope that it will be useful,
