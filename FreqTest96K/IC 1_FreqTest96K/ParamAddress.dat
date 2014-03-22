@@ -6,8 +6,9 @@ dataLoad3_SafeLoad	4
 dataLoadEnd_SafeLoad	5
 addressLoad_SafeLoad	6
 numLoad_SafeLoad	7
-DCInpAlg1_0	8
-SquareAlg1mask_1	9
-SquareAlg1freq_1	10
-SquareAlg1ison_1	11
-SingleCtrlMixer19401_2	12
+sin_lookupAlg19401mask_0	8
+sin_lookupAlg19401increment_0	9
+sin_lookupAlg19401ison_0	10
+sin_lookupAlg19402mask_1	11
+sin_lookupAlg19402increment_1	12
+sin_lookupAlg19402ison_1	13
