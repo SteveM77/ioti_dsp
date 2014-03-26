@@ -7,43 +7,49 @@ Build date = 11/3/2013 at 11:34 PM
 (Note: Estimates are based on a 48 kHz sample rate)
 
 Instructions used:
-112	(out of a possible 4096 )
+143	(out of a possible 4096 )
 Modulo Data RAM used (X Memory):
-13	(out of a possible 8192 )
+25	(out of a possible 8192 )
 Non Modulo Data RAM used (X Memory):
 0	(out of a possible 8192 )
 Parameter RAM used (Y Memory):
-14	(out of a possible 4096 )
+23	(out of a possible 4096 )
 
 Instance                      		Mips	Inst	Data	Coeff	Other
                               			(max)
-Tone1                         		22	22	8	3
-Tone2                         		22	22	5	3
+Square1                       		23	23	7	3
+Triangle1                     		21	21	6	7
+VCO1                          		18	18	7	1
 Beginning                     		16	16	0	1
 SafeLoadCode                  		15	15	0	7
 End                           		5	5	0	0
-Output9                       		2	2	0	0
-Output10                      		2	2	0	0
-Output13                      		2	2	0	0
+Gain1                         		3	3	1	1
+Mg1                           		3	3	1	1
+Add1                          		3	3	1	0
+DC1                           		2	2	1	1
+DC2                           		2	2	1	1
 Output14                      		2	2	0	0
 Output16                      		2	2	0	0
-Output15                      		2	2	0	0
-Output5                       		2	2	0	0
-Output6                       		2	2	0	0
+Output10                      		2	2	0	0
+Output13                      		2	2	0	0
 Output11                      		2	2	0	0
+Output5                       		2	2	0	0
+Output7                       		2	2	0	0
 Output4                       		2	2	0	0
 Output12                      		2	2	0	0
-Output3                       		2	2	0	0
+Output6                       		2	2	0	0
+Output1                       		2	2	0	0
+Output9                       		2	2	0	0
+Output15                      		2	2	0	0
 Output8                       		2	2	0	0
 Output2                       		2	2	0	0
-Output7                       		2	2	0	0
-Output1                       		2	2	0	0
+Output3                       		2	2	0	0
 
 Subroutines called:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Total                      			112	112	13	14
+Total                      			143	143	25	23
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-(%)                          			3%	3%	0%	0%
+(%)                          			4%	3%	0%	1%
 
 Files written:  
 program_data.dat - load file for downloading code using ADI loader
