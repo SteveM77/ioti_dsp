@@ -1,0 +1,446 @@
+Cell Name         = DCB1
+Parameter Name    = DCBlockAlgDoublePrec1pole
+Parameter Address = 14
+Parameter Value   = 0.999899983406067
+Parameter Data :
+0x00, 0x7F, 0xFC, 0xB9, 
+
+
+
+Cell Name         = DCB2
+Parameter Name    = DCBlockAlgDoublePrec2pole
+Parameter Address = 8
+Parameter Value   = 0.999899983406067
+Parameter Data :
+0x00, 0x7F, 0xFC, 0xB9, 
+
+
+
+Cell Name         = DCB3
+Parameter Name    = DCBlockAlgDoublePrec3pole
+Parameter Address = 9
+Parameter Value   = 0.999899983406067
+Parameter Data :
+0x00, 0x7F, 0xFC, 0xB9, 
+
+
+
+Cell Name         = DCB4
+Parameter Name    = DCBlockAlgDoublePrec4pole
+Parameter Address = 15
+Parameter Value   = 0.999899983406067
+Parameter Data :
+0x00, 0x7F, 0xFC, 0xB9, 
+
+
+
+Cell Name         = DCB5
+Parameter Name    = DCBlockAlgDoublePrec5pole
+Parameter Address = 10
+Parameter Value   = 0.999899983406067
+Parameter Data :
+0x00, 0x7F, 0xFC, 0xB9, 
+
+
+
+Cell Name         = DCB6
+Parameter Name    = DCBlockAlgDoublePrec6pole
+Parameter Address = 11
+Parameter Value   = 0.999899983406067
+Parameter Data :
+0x00, 0x7F, 0xFC, 0xB9, 
+
+
+
+Cell Name         = DCB7
+Parameter Name    = DCBlockAlgDoublePrec7pole
+Parameter Address = 12
+Parameter Value   = 0.999899983406067
+Parameter Data :
+0x00, 0x7F, 0xFC, 0xB9, 
+
+
+
+Cell Name         = DCB8
+Parameter Name    = DCBlockAlgDoublePrec8pole
+Parameter Address = 13
+Parameter Value   = 0.999899983406067
+Parameter Data :
+0x00, 0x7F, 0xFC, 0xB9, 
+
+
+
+Cell Name         = Level1
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen1TCONST
+Parameter Address = 16
+Parameter Value   = 0.00119996070861816
+Parameter Data :
+0x00 ,	0x00 ,	0x27 ,	0x52 ,	
+
+
+
+Cell Name         = Level1
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen1hold
+Parameter Address = 17
+Parameter Value   = 960
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0xC0 ,	
+
+
+
+Cell Name         = Level1
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen1decay
+Parameter Address = 18
+Parameter Value   = 0.000108480453491211
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0x8E ,	
+
+
+
+Cell Name         = Level2
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen2TCONST
+Parameter Address = 23
+Parameter Value   = 0.00119996070861816
+Parameter Data :
+0x00 ,	0x00 ,	0x27 ,	0x52 ,	
+
+
+
+Cell Name         = Level2
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen2hold
+Parameter Address = 24
+Parameter Value   = 960
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0xC0 ,	
+
+
+
+Cell Name         = Level2
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen2decay
+Parameter Address = 25
+Parameter Value   = 0.000108480453491211
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0x8E ,	
+
+
+
+Cell Name         = Level3
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen3TCONST
+Parameter Address = 30
+Parameter Value   = 0.00119996070861816
+Parameter Data :
+0x00 ,	0x00 ,	0x27 ,	0x52 ,	
+
+
+
+Cell Name         = Level3
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen3hold
+Parameter Address = 31
+Parameter Value   = 960
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0xC0 ,	
+
+
+
+Cell Name         = Level3
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen3decay
+Parameter Address = 32
+Parameter Value   = 0.000108480453491211
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0x8E ,	
+
+
+
+Cell Name         = Level4
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen4TCONST
+Parameter Address = 37
+Parameter Value   = 0.00119996070861816
+Parameter Data :
+0x00 ,	0x00 ,	0x27 ,	0x52 ,	
+
+
+
+Cell Name         = Level4
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen4hold
+Parameter Address = 38
+Parameter Value   = 960
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0xC0 ,	
+
+
+
+Cell Name         = Level4
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen4decay
+Parameter Address = 39
+Parameter Value   = 0.000108480453491211
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0x8E ,	
+
+
+
+Cell Name         = Level5
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen5TCONST
+Parameter Address = 44
+Parameter Value   = 0.00119996070861816
+Parameter Data :
+0x00 ,	0x00 ,	0x27 ,	0x52 ,	
+
+
+
+Cell Name         = Level5
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen5hold
+Parameter Address = 45
+Parameter Value   = 960
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0xC0 ,	
+
+
+
+Cell Name         = Level5
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen5decay
+Parameter Address = 46
+Parameter Value   = 0.000108480453491211
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0x8E ,	
+
+
+
+Cell Name         = Level6
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen6TCONST
+Parameter Address = 51
+Parameter Value   = 0.00119996070861816
+Parameter Data :
+0x00 ,	0x00 ,	0x27 ,	0x52 ,	
+
+
+
+Cell Name         = Level6
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen6hold
+Parameter Address = 52
+Parameter Value   = 960
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0xC0 ,	
+
+
+
+Cell Name         = Level6
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen6decay
+Parameter Address = 53
+Parameter Value   = 0.000108480453491211
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0x8E ,	
+
+
+
+Cell Name         = Level7
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen7TCONST
+Parameter Address = 58
+Parameter Value   = 0.00119996070861816
+Parameter Data :
+0x00 ,	0x00 ,	0x27 ,	0x52 ,	
+
+
+
+Cell Name         = Level7
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen7hold
+Parameter Address = 59
+Parameter Value   = 960
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0xC0 ,	
+
+
+
+Cell Name         = Level7
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen7decay
+Parameter Address = 60
+Parameter Value   = 0.000108480453491211
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0x8E ,	
+
+
+
+Cell Name         = Level8
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen8TCONST
+Parameter Address = 65
+Parameter Value   = 0.00119996070861816
+Parameter Data :
+0x00 ,	0x00 ,	0x27 ,	0x52 ,	
+
+
+
+Cell Name         = Level8
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen8hold
+Parameter Address = 66
+Parameter Value   = 960
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0xC0 ,	
+
+
+
+Cell Name         = Level8
+Parameter Name    = SingleBandLevelDetwOutDisp3rdgen8decay
+Parameter Address = 67
+Parameter Value   = 0.000108480453491211
+Parameter Data :
+0x00 ,	0x00 ,	0x03 ,	0x8E ,	
+
+
+
+Cell Name         = None - Framework
+Parameter Name    = NonModRamAlloc
+Parameter Address = 0
+Parameter Value   = 8192
+Parameter Data :
+0x00, 0x00, 0x20, 0x00, 
+
+
+
+Parameter data for: ADAU1445 (Hexadecimal format starting at parameter address 0)
+See also pass-thru-96K.hex file
+0x00 , 	0x00 , 	0x20 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x7F , 	0xFC , 	0xB9 , 	
+0x00 , 	0x7F , 	0xFC , 	0xB9 , 	
+0x00 , 	0x7F , 	0xFC , 	0xB9 , 	
+0x00 , 	0x7F , 	0xFC , 	0xB9 , 	
+0x00 , 	0x7F , 	0xFC , 	0xB9 , 	
+0x00 , 	0x7F , 	0xFC , 	0xB9 , 	
+0x00 , 	0x7F , 	0xFC , 	0xB9 , 	
+0x00 , 	0x7F , 	0xFC , 	0xB9 , 	
+0x00 , 	0x00 , 	0x27 , 	0x52 , 	
+0x00 , 	0x00 , 	0x03 , 	0xC0 , 	
+0x00 , 	0x00 , 	0x03 , 	0x8E , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x27 , 	0x52 , 	
+0x00 , 	0x00 , 	0x03 , 	0xC0 , 	
+0x00 , 	0x00 , 	0x03 , 	0x8E , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x27 , 	0x52 , 	
+0x00 , 	0x00 , 	0x03 , 	0xC0 , 	
+0x00 , 	0x00 , 	0x03 , 	0x8E , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x27 , 	0x52 , 	
+0x00 , 	0x00 , 	0x03 , 	0xC0 , 	
+0x00 , 	0x00 , 	0x03 , 	0x8E , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x27 , 	0x52 , 	
+0x00 , 	0x00 , 	0x03 , 	0xC0 , 	
+0x00 , 	0x00 , 	0x03 , 	0x8E , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x27 , 	0x52 , 	
+0x00 , 	0x00 , 	0x03 , 	0xC0 , 	
+0x00 , 	0x00 , 	0x03 , 	0x8E , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x27 , 	0x52 , 	
+0x00 , 	0x00 , 	0x03 , 	0xC0 , 	
+0x00 , 	0x00 , 	0x03 , 	0x8E , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x27 , 	0x52 , 	
+0x00 , 	0x00 , 	0x03 , 	0xC0 , 	
+0x00 , 	0x00 , 	0x03 , 	0x8E , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+
+Parameter data for: ADAU1445 (Binary format starting at parameter address 0)
+00000000	00000000	00100000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	01111111	11111100	10111001	
+00000000	01111111	11111100	10111001	
+00000000	01111111	11111100	10111001	
+00000000	01111111	11111100	10111001	
+00000000	01111111	11111100	10111001	
+00000000	01111111	11111100	10111001	
+00000000	01111111	11111100	10111001	
+00000000	01111111	11111100	10111001	
+00000000	00000000	00100111	01010010	
+00000000	00000000	00000011	11000000	
+00000000	00000000	00000011	10001110	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00100111	01010010	
+00000000	00000000	00000011	11000000	
+00000000	00000000	00000011	10001110	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00100111	01010010	
+00000000	00000000	00000011	11000000	
+00000000	00000000	00000011	10001110	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00100111	01010010	
+00000000	00000000	00000011	11000000	
+00000000	00000000	00000011	10001110	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00100111	01010010	
+00000000	00000000	00000011	11000000	
+00000000	00000000	00000011	10001110	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00100111	01010010	
+00000000	00000000	00000011	11000000	
+00000000	00000000	00000011	10001110	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00100111	01010010	
+00000000	00000000	00000011	11000000	
+00000000	00000000	00000011	10001110	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00100111	01010010	
+00000000	00000000	00000011	11000000	
+00000000	00000000	00000011	10001110	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+00000000	00000000	00000000	00000000	
+

@@ -1,8 +1,8 @@
 /*
- * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\ips-10BEq\export\ips-10BEQ_ADAU1966_PARAM.h
+ * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\PassThru96K\export\pass-thru-96K_ADAU1966_PARAM.h
  *
- * Created:        Saturday, April 05, 2014 11:53:08 AM
- * Description:    ips-10BEQ:ADAU1966 parameter RAM definitions.
+ * Created:        Saturday, April 05, 2014 11:34:43 AM
+ * Description:    pass-thru-96K:ADAU1966 parameter RAM definitions.
  *
  * This software is distributed in the hope that it will be useful,
  * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
@@ -16,8 +16,8 @@
  *
  * Copyright ©2014 Analog Devices, Inc. All rights reserved.
  */
-#ifndef __IPS_10BEQ_ADAU1966_PARAM_H__
-#define __IPS_10BEQ_ADAU1966_PARAM_H__
+#ifndef __PASS_THRU_96K_ADAU1966_PARAM_H__
+#define __PASS_THRU_96K_ADAU1966_PARAM_H__
 
 
 #endif

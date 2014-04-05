@@ -1,8 +1,8 @@
 /*
- * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\ips-10BEq\export\ips-10BEQ_ADAU1445_REG.h
+ * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\PassThru96K\export\pass-thru-96K_ADAU1445_REG.h
  *
- * Created:        Saturday, April 05, 2014 11:53:08 AM
- * Description:    ips-10BEQ:ADAU1445 control register definitions.
+ * Created:        Saturday, April 05, 2014 11:34:43 AM
+ * Description:    pass-thru-96K:ADAU1445 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
  * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
@@ -16,8 +16,8 @@
  *
  * Copyright ©2014 Analog Devices, Inc. All rights reserved.
  */
-#ifndef __IPS_10BEQ_ADAU1445_REG_H__
-#define __IPS_10BEQ_ADAU1445_REG_H__
+#ifndef __PASS_THRU_96K_ADAU1445_REG_H__
+#define __PASS_THRU_96K_ADAU1445_REG_H__
 
 
 /* Asrc1BistRegister0  - Registers (ADAU1445) */
@@ -943,12 +943,12 @@
 /* CRC Ideal_1  - Registers (ADAU1445) */
 #define REG_CRC_IDEAL_1_ADAU1445_ADDR             0xE200
 #define REG_CRC_IDEAL_1_ADAU1445_BYTE             2
-#define REG_CRC_IDEAL_1_ADAU1445_VALUE            0x12BB
+#define REG_CRC_IDEAL_1_ADAU1445_VALUE            0xF7C7
 
 /* CRC Ideal_2  - Registers (ADAU1445) */
 #define REG_CRC_IDEAL_2_ADAU1445_ADDR             0xE201
 #define REG_CRC_IDEAL_2_ADAU1445_BYTE             2
-#define REG_CRC_IDEAL_2_ADAU1445_VALUE            0x623B
+#define REG_CRC_IDEAL_2_ADAU1445_VALUE            0xFF9C
 
 /* CRC Enable  - Registers (ADAU1445) */
 #define REG_CRC_ENABLE_ADAU1445_ADDR              0xE202
@@ -2907,12 +2907,12 @@
 #define R128_MSB_POSITION_UPPER_SLOT_ADAU1445_SHIFT 15
 
 /* CRC Ideal_1 (ADAU1445) */
-#define R129_CRC_IDEAL_1_ADAU1445                 0x12BB /* 0001001010111011b	[15:0] */
+#define R129_CRC_IDEAL_1_ADAU1445                 0xF7C7 /* 1111011111000111b	[15:0] */
 #define R129_CRC_IDEAL_1_ADAU1445_MASK            0xFFFF
 #define R129_CRC_IDEAL_1_ADAU1445_SHIFT           0
 
 /* CRC Ideal_2 (ADAU1445) */
-#define R130_CRC_IDEAL_2_ADAU1445                 0x623B /* 0110001000111011b	[15:0] */
+#define R130_CRC_IDEAL_2_ADAU1445                 0xFF9C /* 1111111110011100b	[15:0] */
 #define R130_CRC_IDEAL_2_ADAU1445_MASK            0xFFFF
 #define R130_CRC_IDEAL_2_ADAU1445_SHIFT           0
 
