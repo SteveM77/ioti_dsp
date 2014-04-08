@@ -7,9 +7,9 @@ Build date = 11/3/2013 at 11:34 PM
 (Note: Estimates are based on a 48 kHz sample rate)
 
 Instructions used:
-1955	(out of a possible 4096 )
+1995	(out of a possible 4096 )
 Modulo Data RAM used (X Memory):
-924	(out of a possible 8192 )
+933	(out of a possible 8192 )
 Non Modulo Data RAM used (X Memory):
 0	(out of a possible 8192 )
 Parameter RAM used (Y Memory):
@@ -18,83 +18,85 @@ Parameter RAM used (Y Memory):
 Instance                      		Mips	Inst	Data	Coeff	Other
                               			(max)
 10 BEQ 1                      		300	300	165	250
-VCO2                          		96	96	20	4
 VCO3                          		96	96	20	4
-XFade1                        		84	84	32	4
+VCO2                          		96	96	20	4
 XFade2                        		84	84	32	4
+XFade1                        		84	84	32	4
 AM-Depth-Fader                		84	84	24	4
-Crossover1_4                  		81	81	60	42
-Crossover1_3                  		81	81	60	42
-Crossover1_5                  		81	81	60	42
+Crossover3                    		81	81	60	42
+Crossover5                    		81	81	60	42
+Crossover4                    		81	81	60	42
+Crossover2                    		81	81	60	42
 Crossover1                    		81	81	60	42
-Crossover1_2                  		81	81	60	42
 F-Freq                        		72	72	72	20
 DelayTimer                    		60	60	12	0
 DelayTimeF                    		60	60	12	0
 NxM Mixer1                    		54	54	1	48
 SW vol 1                      		52	52	28	4
-Crossover2                    		36	36	30	17
+Crossover6                    		36	36	30	17
 Pink Flt1                     		31	31	17	16
-SourceSelt                    		24	24	8	2
+SourceSelect                  		24	24	8	2
 Tone1                         		22	22	8	3
-Tone3                         		22	22	5	3
 Tone2                         		22	22	5	3
+Tone3                         		22	22	5	3
 Tone4                         		22	22	5	3
-Nx6-1                         		18	18	6	2
+X1                            		20	20	5	0
+X2                            		20	20	4	0
+OutputSelect                  		18	18	6	2
 VCO1                          		18	18	5	1
 ZeroComp1                     		16	16	4	4
 ZeroComp2                     		16	16	4	4
 Beginning                     		16	16	0	1
-AsrcIn1                       		16	16	0	0
+Input1                        		16	16	0	0
 SafeLoadCode                  		15	15	0	7
-1Vto32767mHz                  		12	12	4	4
 Mg3                           		12	12	4	4
+1Vto32767mHz                  		12	12	4	4
 Mg2                           		12	12	4	4
 Sawtooth1                     		11	11	5	3
-PhaseSync                     		8	8	4	4
 DelayF                        		8	8	4	4
-AM-Depth                      		8	8	4	4
-DelayAM                       		8	8	4	4
 Rate                          		8	8	4	4
+DelayAM                       		8	8	4	4
+PhaseSync                     		8	8	4	4
+AM-Depth                      		8	8	4	4
 DepthBias                     		8	8	4	4
 F-Depth                       		8	8	4	4
 W Noise1                      		8	8	3	2
+DCB1                          		6	6	7	1
 DCB3                          		6	6	7	1
-DCB7                          		6	6	7	1
+DCB6                          		6	6	7	1
 DCB5                          		6	6	7	1
+DCB4                          		6	6	7	1
+DCB7                          		6	6	7	1
 DCB8                          		6	6	7	1
 DCB2                          		6	6	7	1
-DCB6                          		6	6	7	1
-DCB4                          		6	6	7	1
-DCB1                          		6	6	7	1
 Nx1-1                         		6	6	1	5
 End                           		5	5	0	0
 Mg1                           		4	4	1	1
 Gain1                         		3	3	1	1
 Add1                          		3	3	1	0
 DC2                           		2	2	1	1
-Output4                       		2	2	0	0
-Output16                      		2	2	0	0
-Output10                      		2	2	0	0
-Output13                      		2	2	0	0
-Output11                      		2	2	0	0
-Output1                       		2	2	0	0
-Output3                       		2	2	0	0
-Output8                       		2	2	0	0
-Output12                      		2	2	0	0
-Output15                      		2	2	0	0
-Output7                       		2	2	0	0
-Output6                       		2	2	0	0
-Output5                       		2	2	0	0
-Output14                      		2	2	0	0
-Output9                       		2	2	0	0
-Output2                       		2	2	0	0
+AsrcOut13                     		2	2	0	0
+AsrcOut12                     		2	2	0	0
+AsrcOut2                      		2	2	0	0
+AsrcOut14                     		2	2	0	0
+AsrcOut3                      		2	2	0	0
+AsrcOut15                     		2	2	0	0
+AsrcOut4                      		2	2	0	0
+AsrcOut1                      		2	2	0	0
+AsrcOut16                     		2	2	0	0
+AsrcOut5                      		2	2	0	0
+AsrcOut9                      		2	2	0	0
+AsrcOut11                     		2	2	0	0
+AsrcOut6                      		2	2	0	0
+AsrcOut10                     		2	2	0	0
+AsrcOut7                      		2	2	0	0
+AsrcOut8                      		2	2	0	0
 
 Subroutines called:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Total                      			1955	1955	924	679
+Total                      			1995	1995	933	679
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-(%)                          			55%	48%	11%	17%
+(%)                          			56%	49%	11%	17%
 
 Files written:  
 program_data.dat - load file for downloading code using ADI loader
