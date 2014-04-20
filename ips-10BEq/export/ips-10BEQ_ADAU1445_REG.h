@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\ips-10BEq\export\ips-10BEQ_ADAU1445_REG.h
  *
- * Created:        Saturday, April 12, 2014 4:53:57 PM
+ * Created:        Saturday, April 19, 2014 8:02:33 PM
  * Description:    ips-10BEQ:ADAU1445 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -943,12 +943,12 @@
 /* CRC Ideal_1  - Registers (ADAU1445) */
 #define REG_CRC_IDEAL_1_ADAU1445_ADDR             0xE200
 #define REG_CRC_IDEAL_1_ADAU1445_BYTE             2
-#define REG_CRC_IDEAL_1_ADAU1445_VALUE            0x65F5
+#define REG_CRC_IDEAL_1_ADAU1445_VALUE            0xC2D4
 
 /* CRC Ideal_2  - Registers (ADAU1445) */
 #define REG_CRC_IDEAL_2_ADAU1445_ADDR             0xE201
 #define REG_CRC_IDEAL_2_ADAU1445_BYTE             2
-#define REG_CRC_IDEAL_2_ADAU1445_VALUE            0xFB12
+#define REG_CRC_IDEAL_2_ADAU1445_VALUE            0x68FD
 
 /* CRC Enable  - Registers (ADAU1445) */
 #define REG_CRC_ENABLE_ADAU1445_ADDR              0xE202
@@ -2907,12 +2907,12 @@
 #define R128_MSB_POSITION_UPPER_SLOT_ADAU1445_SHIFT 15
 
 /* CRC Ideal_1 (ADAU1445) */
-#define R129_CRC_IDEAL_1_ADAU1445                 0x65F5 /* 0110010111110101b	[15:0] */
+#define R129_CRC_IDEAL_1_ADAU1445                 0xC2D4 /* 1100001011010100b	[15:0] */
 #define R129_CRC_IDEAL_1_ADAU1445_MASK            0xFFFF
 #define R129_CRC_IDEAL_1_ADAU1445_SHIFT           0
 
 /* CRC Ideal_2 (ADAU1445) */
-#define R130_CRC_IDEAL_2_ADAU1445                 0xFB12 /* 1111101100010010b	[15:0] */
+#define R130_CRC_IDEAL_2_ADAU1445                 0x68FD /* 0110100011111101b	[15:0] */
 #define R130_CRC_IDEAL_2_ADAU1445_MASK            0xFFFF
 #define R130_CRC_IDEAL_2_ADAU1445_SHIFT           0
 
