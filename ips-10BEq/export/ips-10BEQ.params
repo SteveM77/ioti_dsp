@@ -26563,24 +26563,15 @@ Parameter Data :
 Cell Name         = SourceSelect
 Parameter Name    = stereomux1940ns810
 Parameter Address = 122
-Parameter Value   = 1
+Parameter Value   = 0
 Parameter Data :
-0x00, 0x80, 0x00, 0x00, 
+0x00, 0x00, 0x00, 0x00, 
 
 
 
 Cell Name         = SourceSelect
 Parameter Name    = stereomux1940ns811
 Parameter Address = 123
-Parameter Value   = 0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Cell Name         = OutputSelect
-Parameter Name    = stereomux1940ns610
-Parameter Address = 717
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x80, 0x00, 0x00, 
@@ -26588,11 +26579,20 @@ Parameter Data :
 
 
 Cell Name         = OutputSelect
-Parameter Name    = stereomux1940ns611
-Parameter Address = 718
+Parameter Name    = stereomux1940ns610
+Parameter Address = 717
 Parameter Value   = 0
 Parameter Data :
 0x00, 0x00, 0x00, 0x00, 
+
+
+
+Cell Name         = OutputSelect
+Parameter Name    = stereomux1940ns611
+Parameter Address = 718
+Parameter Value   = 1
+Parameter Data :
+0x00, 0x80, 0x00, 0x00, 
 
 
 
@@ -26729,8 +26729,8 @@ See also ips-10BEQ.hex file
 0x00 , 	0x40 , 	0x00 , 	0x00 , 	
 0x00 , 	0x40 , 	0x00 , 	0x00 , 	
 0x00 , 	0x40 , 	0x00 , 	0x00 , 	
-0x00 , 	0x80 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
 0x00 , 	0x40 , 	0x00 , 	0x00 , 	
 0x00 , 	0x40 , 	0x00 , 	0x00 , 	
 0x00 , 	0x40 , 	0x00 , 	0x00 , 	
@@ -27324,8 +27324,8 @@ See also ips-10BEQ.hex file
 0x00 , 	0xBA , 	0x24 , 	0xA7 , 	
 0x00 , 	0x60 , 	0xE7 , 	0xE1 , 	
 0x0F , 	0xB6 , 	0x85 , 	0x24 , 	
-0x00 , 	0x80 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
 
 Parameter data for: ADAU1445 (Binary format starting at parameter address 0)
 00000000	00000000	00100000	00000000	
@@ -27450,8 +27450,8 @@ Parameter data for: ADAU1445 (Binary format starting at parameter address 0)
 00000000	01000000	00000000	00000000	
 00000000	01000000	00000000	00000000	
 00000000	01000000	00000000	00000000	
-00000000	10000000	00000000	00000000	
 00000000	00000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
 00000000	01000000	00000000	00000000	
 00000000	01000000	00000000	00000000	
 00000000	01000000	00000000	00000000	
@@ -28045,6 +28045,6 @@ Parameter data for: ADAU1445 (Binary format starting at parameter address 0)
 00000000	10111010	00100100	10100111	
 00000000	01100000	11100111	11100001	
 00001111	10110110	10000101	00100100	
-00000000	10000000	00000000	00000000	
 00000000	00000000	00000000	00000000	
+00000000	10000000	00000000	00000000	
 
