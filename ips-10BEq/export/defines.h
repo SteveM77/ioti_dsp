@@ -1,7 +1,7 @@
 /*
  * File:           defines.h
  *
- * Created:        Wednesday, April 23, 2014 11:01:14 PM
+ * Created:        Sunday, April 27, 2014 9:34:23 PM
  * Description:    ips-10BEQ IC default download data definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -19,7 +19,7 @@
 #ifndef __DEFINES_H__
 #define __DEFINES_H__
 
-#define BufferSize_ADAU1445     	16338
+#define BufferSize_ADAU1445     	12136
 #define NumTransactions_ADAU1445	25
 
 #define BufferSize_ADAU1966     	102
