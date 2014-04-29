@@ -7,27 +7,27 @@ Build date = 11/3/2013 at 11:34 PM
 (Note: Estimates are based on a 48 kHz sample rate)
 
 Instructions used:
-1664	(out of a possible 4096 )
+1634	(out of a possible 4096 )
 Modulo Data RAM used (X Memory):
-653	(out of a possible 8192 )
+599	(out of a possible 8192 )
 Non Modulo Data RAM used (X Memory):
 0	(out of a possible 8192 )
 Parameter RAM used (Y Memory):
-438	(out of a possible 4096 )
+418	(out of a possible 4096 )
 
 Instance                      		Mips	Inst	Data	Coeff	Other
                               			(max)
-10 BEQ 1                      		240	240	132	200
+MatrixMixer                   		144	144	14	128
+10 BEQ 1                      		120	120	66	100
 FcFilter                      		96	96	96	40
 VCO3                          		96	96	20	4
 VCO2                          		96	96	20	4
-Swell_F                       		84	84	32	4
 XFade2                        		84	84	32	4
+Swell_F                       		84	84	32	4
 XFade1                        		84	84	32	4
 AM-Depth-Fader                		84	84	24	4
 DelayTimeF                    		60	60	12	0
 DelayTimer                    		60	60	12	0
-MatrixMixer                   		54	54	2	48
 SW vol 1                      		52	52	28	4
 Swell_A                       		52	52	20	4
 Pink Flt1                     		31	31	17	16
@@ -76,10 +76,10 @@ AsrcOut10                     		2	2	0	0
 AsrcOut3                      		2	2	0	0
 AsrcOut6                      		2	2	0	0
 AsrcOut4                      		2	2	0	0
-AsrcOut12                     		2	2	0	0
+AsrcOut15                     		2	2	0	0
 AsrcOut13                     		2	2	0	0
 AsrcOut7                      		2	2	0	0
-AsrcOut15                     		2	2	0	0
+AsrcOut12                     		2	2	0	0
 AsrcOut2                      		2	2	0	0
 AsrcOut9                      		2	2	0	0
 AsrcOut1                      		2	2	0	0
@@ -91,9 +91,9 @@ AsrcOut11                     		2	2	0	0
 
 Subroutines called:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Total                      			1664	1664	653	438
+Total                      			1634	1634	599	418
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-(%)                          			46%	41%	8%	11%
+(%)                          			46%	40%	7%	10%
 
 Files written:  
 program_data.dat - load file for downloading code using ADI loader

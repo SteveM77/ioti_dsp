@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\ips-10BEq\export\ips-10BEQ_ADAU1966_REG.h
  *
- * Created:        Sunday, April 27, 2014 9:34:23 PM
+ * Created:        Monday, April 28, 2014 10:20:22 PM
  * Description:    ips-10BEQ:ADAU1966 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
