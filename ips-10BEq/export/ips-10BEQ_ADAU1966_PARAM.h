@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\ips-10BEq\export\ips-10BEQ_ADAU1966_PARAM.h
  *
- * Created:        Monday, April 28, 2014 10:20:22 PM
+ * Created:        Tuesday, April 29, 2014 10:05:45 PM
  * Description:    ips-10BEQ:ADAU1966 parameter RAM definitions.
  *
  * This software is distributed in the hope that it will be useful,

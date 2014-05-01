@@ -1,7 +1,7 @@
 /*
  * File:           defines.h
  *
- * Created:        Monday, April 28, 2014 10:20:22 PM
+ * Created:        Tuesday, April 29, 2014 10:05:45 PM
  * Description:    ips-10BEQ IC default download data definitions.
  *
  * This software is distributed in the hope that it will be useful,

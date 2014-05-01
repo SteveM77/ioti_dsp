@@ -1,7 +1,7 @@
 /*
  * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\ips-10BEq\export\ips-10BEQ_ADAU1966_REG.h
  *
- * Created:        Monday, April 28, 2014 10:20:22 PM
+ * Created:        Tuesday, April 29, 2014 10:05:45 PM
  * Description:    ips-10BEQ:ADAU1966 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -23,7 +23,7 @@
 /* PLL_CLK_CTRL0  - Registers (ADAU1966) */
 #define REG_PLL_CLK_CTRL0_ADAU1966_ADDR           0x0
 #define REG_PLL_CLK_CTRL0_ADAU1966_BYTE           1
-#define REG_PLL_CLK_CTRL0_ADAU1966_VALUE          0x73
+#define REG_PLL_CLK_CTRL0_ADAU1966_VALUE          0x31
 
 /* PLL_CLK_CTRL1  - Registers (ADAU1966) */
 #define REG_PLL_CLK_CTRL1_ADAU1966_ADDR           0x1
@@ -194,10 +194,10 @@
 
 /* PLL_CLK_CTRL0 (ADAU1966) */
 #define R0_PUP_ADAU1966                           0x1    /* 1b	[0] */
-#define R0_MCS_ADAU1966                           0x1    /* 01b	[2:1] */
+#define R0_MCS_ADAU1966                           0x0    /* 00b	[2:1] */
 #define R0_SOFT_RST_ADAU1966                      0x0    /* 0b	[3] */
 #define R0_XTAL_SET_ADAU1966                      0x3    /* 11b	[5:4] */
-#define R0_PLLIN_ADAU1966                         0x1    /* 01b	[7:6] */
+#define R0_PLLIN_ADAU1966                         0x0    /* 00b	[7:6] */
 #define R0_PUP_ADAU1966_MASK                      0x1
 #define R0_PUP_ADAU1966_SHIFT                     0
 #define R0_MCS_ADAU1966_MASK                      0x6
