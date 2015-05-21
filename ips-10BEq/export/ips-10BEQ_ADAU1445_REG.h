@@ -1,7 +1,7 @@
 /*
- * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\ips-10BEq\export\ips-10BEQ_ADAU1445_REG.h
+ * File:           C:\Users\user\Documents\ioti_DSP\ips-10BEq\export\ips-10BEQ_ADAU1445_REG.h
  *
- * Created:        Tuesday, April 29, 2014 10:05:45 PM
+ * Created:        Wednesday, May 20, 2015 9:31:42 PM
  * Description:    ips-10BEQ:ADAU1445 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -14,7 +14,7 @@
  * are intended for resale to audio product end users. This software
  * may not be distributed whole or in any part to third parties.
  *
- * Copyright ©2014 Analog Devices, Inc. All rights reserved.
+ * Copyright ©2015 Analog Devices, Inc. All rights reserved.
  */
 #ifndef __IPS_10BEQ_ADAU1445_REG_H__
 #define __IPS_10BEQ_ADAU1445_REG_H__
@@ -88,17 +88,17 @@
 /* SerialInput1_Default  - Registers (ADAU1445) */
 #define REG_SERIALINPUT1_DEFAULT_ADAU1445_ADDR    0xE001
 #define REG_SERIALINPUT1_DEFAULT_ADAU1445_BYTE    2
-#define REG_SERIALINPUT1_DEFAULT_ADAU1445_VALUE   0x4409
+#define REG_SERIALINPUT1_DEFAULT_ADAU1445_VALUE   0x4009
 
 /* SerialInput2_Default  - Registers (ADAU1445) */
 #define REG_SERIALINPUT2_DEFAULT_ADAU1445_ADDR    0xE002
 #define REG_SERIALINPUT2_DEFAULT_ADAU1445_BYTE    2
-#define REG_SERIALINPUT2_DEFAULT_ADAU1445_VALUE   0x4809
+#define REG_SERIALINPUT2_DEFAULT_ADAU1445_VALUE   0x4009
 
 /* SerialInput3_Default  - Registers (ADAU1445) */
 #define REG_SERIALINPUT3_DEFAULT_ADAU1445_ADDR    0xE003
 #define REG_SERIALINPUT3_DEFAULT_ADAU1445_BYTE    2
-#define REG_SERIALINPUT3_DEFAULT_ADAU1445_VALUE   0x4C09
+#define REG_SERIALINPUT3_DEFAULT_ADAU1445_VALUE   0x4009
 
 /* SerialInput4_Default  - Registers (ADAU1445) */
 #define REG_SERIALINPUT4_DEFAULT_ADAU1445_ADDR    0xE004
@@ -1028,7 +1028,7 @@
 /* Watchdog Value1  - Registers (ADAU1445) */
 #define REG_WATCHDOG_VALUE1_ADAU1445_ADDR         0xE211
 #define REG_WATCHDOG_VALUE1_ADAU1445_BYTE         2
-#define REG_WATCHDOG_VALUE1_ADAU1445_VALUE        0x7
+#define REG_WATCHDOG_VALUE1_ADAU1445_VALUE        0x0
 
 /* Watchdog Value2  - Registers (ADAU1445) */
 #define REG_WATCHDOG_VALUE2_ADAU1445_ADDR         0xE212
@@ -1294,7 +1294,7 @@
 #define R13_WORD_LENGTH_ADAU1445                  0x0    /* 00b	[7:6] */
 #define R13_LRCLK_POLARITY_ADAU1445               0x0    /* 0b	[8] */
 #define R13_BCLK_POLARITY_ADAU1445                0x0    /* 0b	[9] */
-#define R13_MASTERSLAVE_AND_CLOCLK_DOMAIN_ADAU1445 0x1   /* 0001b	[13:10] */
+#define R13_MASTERSLAVE_AND_CLOCLK_DOMAIN_ADAU1445 0x0   /* 0000b	[13:10] */
 #define R13_FRAME_SYNC_TYPE_ADAU1445              0x1    /* 1b	[14] */
 #define R13_CLOCK_OUTPUT_ENABLE_ADAU1445          0x0    /* 0b	[15] */
 #define R13_TDM_TYPE_ADAU1445_MASK                0x7
@@ -1320,7 +1320,7 @@
 #define R14_WORD_LENGTH_ADAU1445                  0x0    /* 00b	[7:6] */
 #define R14_LRCLK_POLARITY_ADAU1445               0x0    /* 0b	[8] */
 #define R14_BCLK_POLARITY_ADAU1445                0x0    /* 0b	[9] */
-#define R14_MASTERSLAVE_AND_CLOCLK_DOMAIN_ADAU1445 0x2   /* 0010b	[13:10] */
+#define R14_MASTERSLAVE_AND_CLOCLK_DOMAIN_ADAU1445 0x0   /* 0000b	[13:10] */
 #define R14_FRAME_SYNC_TYPE_ADAU1445              0x1    /* 1b	[14] */
 #define R14_CLOCK_OUTPUT_ENABLE_ADAU1445          0x0    /* 0b	[15] */
 #define R14_TDM_TYPE_ADAU1445_MASK                0x7
@@ -1346,7 +1346,7 @@
 #define R15_WORD_LENGTH_ADAU1445                  0x0    /* 00b	[7:6] */
 #define R15_LRCLK_POLARITY_ADAU1445               0x0    /* 0b	[8] */
 #define R15_BCLK_POLARITY_ADAU1445                0x0    /* 0b	[9] */
-#define R15_MASTERSLAVE_AND_CLOCLK_DOMAIN_ADAU1445 0x3   /* 0011b	[13:10] */
+#define R15_MASTERSLAVE_AND_CLOCLK_DOMAIN_ADAU1445 0x0   /* 0000b	[13:10] */
 #define R15_FRAME_SYNC_TYPE_ADAU1445              0x1    /* 1b	[14] */
 #define R15_CLOCK_OUTPUT_ENABLE_ADAU1445          0x0    /* 0b	[15] */
 #define R15_TDM_TYPE_ADAU1445_MASK                0x7
@@ -2992,7 +2992,7 @@
 #define R145_WATCHDOG_ENABLE_ADAU1445_SHIFT       0
 
 /* Watchdog Value1 (ADAU1445) */
-#define R146_WATCHDOG_VALUE1_ADAU1445             0x0007 /* 0000000000000111b	[15:0] */
+#define R146_WATCHDOG_VALUE1_ADAU1445             0x0000 /* 0000000000000000b	[15:0] */
 #define R146_WATCHDOG_VALUE1_ADAU1445_MASK        0xFFFF
 #define R146_WATCHDOG_VALUE1_ADAU1445_SHIFT       0
 

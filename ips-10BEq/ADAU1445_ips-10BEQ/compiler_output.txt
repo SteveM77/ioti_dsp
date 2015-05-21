@@ -1,7 +1,7 @@
-Sigma Studio Version 3.10. Build 2, Rev 1247
+Sigma Studio Version 3.10. Build 4, Rev 1295
 
 Analog Devices Compiler for the 3rd generation SigmaDSP core.
-Build date = 11/3/2013 at 11:34 PM
+Build date = 4/2/2014 at 10:30 AM
 
 ## Summary ##
 (Note: Estimates are based on a 48 kHz sample rate)
