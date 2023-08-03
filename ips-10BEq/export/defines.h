@@ -1,7 +1,7 @@
 /*
  * File:           defines.h
  *
- * Created:        Wednesday, April 23, 2014 11:01:14 PM
+ * Created:        Wednesday, May 20, 2015 9:31:42 PM
  * Description:    ips-10BEQ IC default download data definitions.
  *
  * This software is distributed in the hope that it will be useful,
@@ -14,12 +14,12 @@
  * are intended for resale to audio product end users. This software
  * may not be distributed whole or in any part to third parties.
  *
- * Copyright ©2014 Analog Devices, Inc. All rights reserved.
+ * Copyright ©2015 Analog Devices, Inc. All rights reserved.
  */
 #ifndef __DEFINES_H__
 #define __DEFINES_H__
 
-#define BufferSize_ADAU1445     	16338
+#define BufferSize_ADAU1445     	11876
 #define NumTransactions_ADAU1445	25
 
 #define BufferSize_ADAU1966     	102

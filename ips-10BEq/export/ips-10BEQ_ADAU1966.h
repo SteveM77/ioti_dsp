@@ -1,7 +1,7 @@
 /*
- * File:           C:\Users\mobleys\Documents\Analog Devices\SigmaStudio 3.10\Projects\ioti_DSP\ips-10BEq\export\ips-10BEQ_ADAU1966.h
+ * File:           C:\Users\user\Documents\ioti_DSP\ips-10BEq\export\ips-10BEQ_ADAU1966.h
  *
- * Created:        Wednesday, April 23, 2014 11:01:14 PM
+ * Created:        Wednesday, May 20, 2015 9:31:42 PM
  * Description:    ips-10BEQ:ADAU1966 program data.
  *
  * This software is distributed in the hope that it will be useful,
@@ -14,7 +14,7 @@
  * are intended for resale to audio product end users. This software
  * may not be distributed whole or in any part to third parties.
  *
- * Copyright ©2014 Analog Devices, Inc. All rights reserved.
+ * Copyright ©2015 Analog Devices, Inc. All rights reserved.
  */
 #ifndef __IPS_10BEQ_ADAU1966_H__
 #define __IPS_10BEQ_ADAU1966_H__
@@ -33,7 +33,7 @@ ADI_REG_TYPE R0_DAC_CTRL0_ADAU1966_Default[REG_DAC_CTRL0_ADAU1966_BYTE] = {
 
 /* Register Default - ADAU1966.PLL_CLK_CTRL0 Register.PLL_CLK_CTRL0 */
 ADI_REG_TYPE R1_PLL_CLK_CTRL0_ADAU1966_Default[REG_PLL_CLK_CTRL0_ADAU1966_BYTE] = {
-0x73
+0x31
 };
 
 /* Register Default - ADAU1966.PLL_CLK_CTRL1 Register.PLL_CLK_CTRL1 */
